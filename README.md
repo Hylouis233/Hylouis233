@@ -15,25 +15,24 @@
 ### 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://trophy.ryglcloud.net/?username=Hylouis233&no-frame=true&margin-w=10&margin-h=10" />
+  <img src="https://trophy.ryglcloud.net/?username=Hylouis233&no-frame=true&no-bg=true&theme=onedark&margin-w=10&margin-h=10" />
 </div>
 
 ### 🔥 GitHub Streak
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hylouis233" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hylouis233&theme=onedark&hide_border=true&background=00000000" />
 </div>
 
 ### 📈 Featured Research Repositories
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hylouis233&repo=phsciencedata_crawler_region&hide_border=true&theme=graywhite" />
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hylouis233&repo=Breteau-Index-Prediction-Model-using-machine-learning&hide_border=true&theme=graywhite" />
+  <img align="top" src="https://github-readme-stats.vercel.app/api/pin/?username=Hylouis233&repo=phsciencedata_crawler_region&theme=onedark&bg_color=00000000&hide_border=true" />
+  <img align="top" src="https://github-readme-stats.vercel.app/api/pin/?username=Hylouis233&repo=Breteau-Index-Prediction-Model-using-machine-learning&theme=onedark&bg_color=00000000&hide_border=true" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hylouis233&repo=ChinaEvoFlow&hide_border=true&theme=graywhite" />
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hylouis233&repo=bibverify&hide_border=true&theme=graywhite" />
+  <img align="top" src="https://github-readme-stats.vercel.app/api/pin/?username=Hylouis233&repo=bibverify&theme=onedark&bg_color=00000000&hide_border=true" />
 </div>
 
 ### 🛠️ Tech Stack
@@ -60,9 +59,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile-snake-contrib/github-contribution-grid-snake.svg" />
-    <img alt="github contribution snake" src="./profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/profile-snake-contrib/github-contribution-grid-snake.svg" />
+    <img alt="github contribution snake" src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
   </picture>
 </div>
 
@@ -70,20 +69,20 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-gitblock.svg" />
-    <img alt="3d contribution profile" src="./profile-3d-contrib/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/profile-3d-contrib/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/profile-3d-contrib/profile-gitblock.svg" />
+    <img alt="3d contribution profile" src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/profile-3d-contrib/profile-night-rainbow.svg" />
   </picture>
 </div>
 
 ### Metrics Gallery
 
 <div align="center">
-  <img src="./github-metrics/base.svg" />
+  <img src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-metrics/base.svg" />
   <br />
-  <img src="./github-metrics/languages.indepth.svg" />
+  <img src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-metrics/languages.indepth.svg" />
   <br />
-  <img src="./github-metrics/repositories.pinned.svg" />
+  <img src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-metrics/repositories.pinned.svg" />
 </div>
 
 ### Research Stack
@@ -108,16 +107,6 @@
   <a href="https://www.researchgate.net/profile/Hong-Liu-79/publications?sorting=recentlyAdded&editMode=1"><img src="https://img.shields.io/badge/ResearchGate-Publications-00CCBB?style=flat-square&logo=researchgate&logoColor=white" /></a>
   <a href="https://hylouis233.github.io/files/cv.pdf"><img src="https://img.shields.io/badge/CV-Download-B31B1B?style=flat-square&logo=adobeacrobatreader&logoColor=white" /></a>
 </div>
-
-> Note: local cards in `profile-snake-contrib`, `profile-3d-contrib`, and `github-metrics` will appear after GitHub Actions runs once.
-
-### WakaTime Weekly Stats
-
-<!--START_SECTION:waka-->
-```text
-WakaTime is currently disabled.
-```
-<!--END_SECTION:waka-->
 
 ## Support My Work
 
