@@ -25,7 +25,6 @@ jobs:
           config_timezone: Asia/Shanghai
           base: header, activity, community, repositories, metadata
           plugin_lines: yes
-          plugin_traffic: yes
 
       - name: Language metrics
         uses: lowlighter/metrics@latest
