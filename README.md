@@ -1,13 +1,3 @@
-<h1 align="center">
-  <a href="https://github.com/Hylouis233">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=console.log(%22Hello%2C%20World!%22);Welcome+to+Hylouis233's+Profile!&center=true&size=27">
-  </a>
-</h1>
-
-<div align="center">
-  <img src="https://visitor-badge.glitch.me/badge?page_id=Hylouis233" />
-</div>
-
 <div align="center">
   <a href="https://hylouis233.github.io"><img src="https://img.shields.io/badge/Website-Academic%20Homepage-0f766e?style=flat-square&logo=astro&logoColor=white" /></a>
   <a href="mailto:liuh200107@gmail.com"><img src="https://img.shields.io/badge/Email-liuh200107%40gmail.com-d14836?style=flat-square&logo=gmail&logoColor=white" /></a>
@@ -18,14 +8,14 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img height="137px" src="https://github-readme-stats.vercel.app/api?username=Hylouis233&hide_title=true&hide_border=true&show_icons=true&line_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" />
-  <img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hylouis233&hide_title=true&hide_border=true&layout=compact&langs_count=6&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" />
+  <img height="137px" src="https://github-readme-stats.vercel.app/api?username=Hylouis233&hide_title=true&hide_border=true&show_icons=true&line_height=21&theme=onedark" />
+  <img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hylouis233&hide_title=true&hide_border=true&layout=compact&langs_count=6&theme=onedark" />
 </div>
 
 ### 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Hylouis233" />
+  <img src="https://trophy.ryglcloud.net/?username=Hylouis233&no-frame=true&margin-w=10&margin-h=10" />
 </div>
 
 ### 🔥 GitHub Streak
@@ -34,10 +24,16 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hylouis233" />
 </div>
 
-### 📈 Activity Graph
+### 📈 Featured Research Repositories
 
 <div align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=Hylouis233&theme=xcode" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hylouis233&repo=phsciencedata_crawler_region&hide_border=true&theme=graywhite" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hylouis233&repo=Breteau-Index-Prediction-Model-using-machine-learning&hide_border=true&theme=graywhite" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hylouis233&repo=ChinaEvoFlow&hide_border=true&theme=graywhite" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hylouis233&repo=bibverify&hide_border=true&theme=graywhite" />
 </div>
 
 ### 🛠️ Tech Stack
@@ -45,12 +41,12 @@
 <div align="center">
   <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3" />
-  <img src="https://img.shields.io/badge/-JavaScript-oringe?style=flat-square&logo=javascript" />
+  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000" />
   <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
 </div>
 
-***
+---
 
 ## More Highlights
 
@@ -90,18 +86,27 @@
   <img src="./github-metrics/repositories.pinned.svg" />
 </div>
 
-### More Tech Stack
+### Research Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,cpp,react,vue,nodejs,vite,git,github,vscode,linux,windows,mongodb,django,java" />
+  <img src="https://img.shields.io/badge/Python-Research%20Code-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/R-Statistical%20Analysis-276DC3?style=flat-square&logo=r&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-Notebook%20Workflows-F37626?style=flat-square&logo=jupyter&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-Machine%20Learning-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-Research%20Compute-FCC624?style=flat-square&logo=linux&logoColor=000" />
+  <img src="https://img.shields.io/badge/Git-Reproducible%20Workflows-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/LaTeX-Manuscript%20Writing-008080?style=flat-square&logo=latex&logoColor=white" />
 </div>
 
-### Developer Cards
+### Academic Profiles
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light" />
-  <br />
-  <img src="https://readme-jokes.vercel.app/api?hideBorder&theme=default" />
+  <a href="https://hylouis233.github.io"><img src="https://img.shields.io/badge/Website-Academic%20Homepage-0f766e?style=flat-square&logo=astro&logoColor=white" /></a>
+  <a href="https://orcid.org/0009-0008-3411-5304"><img src="https://img.shields.io/badge/ORCID-0009--0008--3411--5304-A6CE39?style=flat-square&logo=orcid&logoColor=white" /></a>
+  <a href="https://scholar.google.com/citations?user=XktvX-gAAAAJ&hl=en&authuser=1"><img src="https://img.shields.io/badge/Google%20Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white" /></a>
+  <a href="https://www.researchgate.net/profile/Hong-Liu-79/publications?sorting=recentlyAdded&editMode=1"><img src="https://img.shields.io/badge/ResearchGate-Publications-00CCBB?style=flat-square&logo=researchgate&logoColor=white" /></a>
+  <a href="https://hylouis233.github.io/files/cv.pdf"><img src="https://img.shields.io/badge/CV-Download-B31B1B?style=flat-square&logo=adobeacrobatreader&logoColor=white" /></a>
 </div>
 
 > Note: local cards in `profile-snake-contrib`, `profile-3d-contrib`, and `github-metrics` will appear after GitHub Actions runs once.
