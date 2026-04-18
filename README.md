@@ -8,6 +8,13 @@
   <img src="https://visitor-badge.glitch.me/badge?page_id=Hylouis233" />
 </div>
 
+<div align="center">
+  <a href="https://hylouis233.github.io"><img src="https://img.shields.io/badge/Website-Academic%20Homepage-0f766e?style=flat-square&logo=astro&logoColor=white" /></a>
+  <a href="mailto:liuh200107@gmail.com"><img src="https://img.shields.io/badge/Email-liuh200107%40gmail.com-d14836?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:hylouis@qq.com"><img src="https://img.shields.io/badge/QQ%20Mail-hylouis%40qq.com-12b7f5?style=flat-square&logo=tencentqq&logoColor=white" /></a>
+  <a href="https://buymeacoffee.com/liuh200107q"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20My%20Research-ffdd00?style=flat-square&logo=buymeacoffee&logoColor=000000" /></a>
+</div>
+
 ### 📊 GitHub Stats
 
 <div align="center">
@@ -42,3 +49,103 @@
   <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
 </div>
+
+***
+
+## More Highlights
+
+### Live Activity Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hylouis233&theme=xcode&hide_border=true" />
+</div>
+
+### Contribution Snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-snake-contrib/github-contribution-grid-snake.svg" />
+    <img alt="github contribution snake" src="./profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
+  </picture>
+</div>
+
+### 3D Contribution Profile
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-gitblock.svg" />
+    <img alt="3d contribution profile" src="./profile-3d-contrib/profile-night-rainbow.svg" />
+  </picture>
+</div>
+
+### Metrics Gallery
+
+<div align="center">
+  <img src="./github-metrics/base.svg" />
+  <br />
+  <img src="./github-metrics/languages.indepth.svg" />
+  <br />
+  <img src="./github-metrics/repositories.pinned.svg" />
+</div>
+
+### More Tech Stack
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,cpp,react,vue,nodejs,vite,git,github,vscode,linux,windows,mongodb,django,java" />
+</div>
+
+### Developer Cards
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light" />
+  <br />
+  <img src="https://readme-jokes.vercel.app/api?hideBorder&theme=default" />
+</div>
+
+> Note: local cards in `profile-snake-contrib`, `profile-3d-contrib`, and `github-metrics` will appear after GitHub Actions runs once.
+
+### WakaTime Weekly Stats
+
+<!--START_SECTION:waka-->
+```text
+WakaTime is currently disabled.
+```
+<!--END_SECTION:waka-->
+
+## Support My Work
+
+<div align="center">
+  <a href="https://buymeacoffee.com/liuh200107q" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60" width="217" />
+  </a>
+</div>
+
+### Hi there! I'm Hong Liu.
+
+💡 My Passion & What Drives Me
+
+I am currently an M.Sc. student specializing in infectious disease forecasting, spatiotemporal dynamics, and viral evolution, with an interdisciplinary background in public health and preventive medicine. I am deeply passionate about bridging the gap between data science, machine learning, and epidemiology.
+
+What drives me every day is the belief that by deciphering complex health data and building robust prediction models, we can provide earlier warnings for public health challenges. I am a strong advocate for Open Science and making research accessible to everyone.
+
+🛠️ What I Do
+
+Through my research and GitHub repositories, I work on translating complex epidemiological models, non-stationary time-series analyses, and multimodal forecasting algorithms into open-source, reproducible code.
+
+Whether it's analyzing the co-circulation of influenza or modeling small-sample outbreaks, I strive to share my workflows and tools to help fellow researchers and developers in the community.
+
+🌱 How Your Contributions Make a Difference
+
+Balancing academic research and open-source development comes with its own set of challenges and costs. Your generous sponsorship will directly help with:
+
+- Computing Resources: Covering server and GPU costs needed to train machine learning models and process large-scale epidemiological datasets.
+- Research & Maintenance: Supporting data acquisition, publication costs, and the time required to continuously maintain and update my open-source repositories.
+- Fueling the Late Nights: Buying me a cup of coffee during those long nights of debugging code and writing manuscripts.
+
+🤝 Let's Connect
+
+Science and open-source thrive on collaboration. Whether you've cited my papers, used my code, or simply share an interest in infectious disease modeling, I deeply appreciate your presence here.
+
+Every contribution, no matter the size, reminds me that I am not working in isolation. Thank you for supporting my journey in advancing public health research through data and code.

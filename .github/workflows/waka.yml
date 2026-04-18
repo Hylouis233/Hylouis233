@@ -1,0 +1,32 @@
+name: Waka Readme Disabled
+
+on:
+  workflow_dispatch:
+
+jobs:
+  waka-disabled:
+    name: WakaTime Disabled
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: WakaTime disabled
+        run: echo "WakaTime workflow is currently disabled."
+
+      # Original workflow kept here for future use.
+      # Note: local machine env vars do not automatically flow into GitHub Actions.
+      #
+      # - uses: anmol098/waka-readme-stats@master
+      #   with:
+      #     WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+      #     GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      #     SHOW_LINES_OF_CODE: "False"
+      #     SHOW_PROFILE_VIEWS: "False"
+      #     SHOW_LANGUAGE_PER_REPO: "False"
+      #     SHOW_LOC_CHART: "False"
+      #     SHOW_SHORT_INFO: "False"
+      #     SHOW_PROJECTS: "False"
+      #     SHOW_TOTAL_CODE_TIME: "False"
+      #     SHOW_TITLE: "True"
+      #     SHOW_TIMEZONE: "True"
+      #     UPDATED_DATE_FORMAT: "%Y-%m-%d %H:%M:%S"
+      #     SYMBOL_VERSION: "1"

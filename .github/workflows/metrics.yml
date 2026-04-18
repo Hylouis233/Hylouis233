@@ -1,0 +1,58 @@
+name: GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Base metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/base.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+          template: classic
+          config_timezone: Asia/Shanghai
+          base: header, activity, community, repositories, metadata
+          plugin_lines: yes
+          plugin_traffic: yes
+
+      - name: Language metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/languages.indepth.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_details: lines, bytes-size
+          plugin_languages_limit: 8
+
+      - name: Pinned repositories metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/repositories.pinned.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+          base: ""
+          plugin_repositories: yes
+          plugin_repositories_pinned: 2
+
+      - name: Commit and push generated files
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add github-metrics
+          git diff --cached --quiet || git commit -m "generated github metrics"
+          git push
