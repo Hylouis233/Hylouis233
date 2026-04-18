@@ -48,11 +48,3 @@ jobs:
           base: ""
           plugin_repositories: yes
           plugin_repositories_pinned: 2
-
-      - name: Commit and push generated files
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add github-metrics
-          git diff --cached --quiet || git commit -m "generated github metrics"
-          git push
