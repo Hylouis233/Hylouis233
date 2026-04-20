@@ -27,12 +27,12 @@
 ### 📈 Featured Research Repositories
 
 <div align="center">
-  <img align="top" src="https://github-readme-stats.vercel.app/api/pin/?username=Hylouis233&repo=phsciencedata_crawler_region&theme=onedark&bg_color=00000000&hide_border=true" />
-  <img align="top" src="https://github-readme-stats.vercel.app/api/pin/?username=Hylouis233&repo=Breteau-Index-Prediction-Model-using-machine-learning&theme=onedark&bg_color=00000000&hide_border=true" />
+  <img align="top" src="https://github-readme-stats.vercel.app/api/pin/?username=Hylouis233&repo=phsciencedata_crawler_region&theme=onedark&bg_color=00000000&hide_border=true&v=1" />
+  <img align="top" src="https://github-readme-stats.vercel.app/api/pin/?username=Hylouis233&repo=Breteau-Index-Prediction-Model-using-machine-learning&theme=onedark&bg_color=00000000&hide_border=true&v=1" />
 </div>
 
 <div align="center">
-  <img align="top" src="https://github-readme-stats.vercel.app/api/pin/?username=Hylouis233&repo=bibverify&theme=onedark&bg_color=00000000&hide_border=true" />
+  <img align="top" src="https://github-readme-stats.vercel.app/api/pin/?username=Hylouis233&repo=bibverify&theme=onedark&bg_color=00000000&hide_border=true&v=1" />
 </div>
 
 ### 🛠️ Tech Stack
