@@ -2,7 +2,7 @@
   <a href="https://hylouis233.github.io"><img src="https://img.shields.io/badge/Website-Academic%20Homepage-0f766e?style=flat-square&logo=astro&logoColor=white" /></a>
   <a href="mailto:liuh200107@gmail.com"><img src="https://img.shields.io/badge/Email-liuh200107%40gmail.com-d14836?style=flat-square&logo=gmail&logoColor=white" /></a>
   <a href="mailto:hylouis@qq.com"><img src="https://img.shields.io/badge/QQ%20Mail-hylouis%40qq.com-12b7f5?style=flat-square&logo=tencentqq&logoColor=white" /></a>
-  <a href="https://buymeacoffee.com/liuh200107q"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20My%20Research-ffdd00?style=flat-square&logo=buymeacoffee&logoColor=000000" /></a>
+  <a href="https://hylouis233.github.io/support/"><img src="https://img.shields.io/badge/Support-Research%20and%20Open%20Source-0f766e?style=flat-square&logo=githubsponsors&logoColor=white" /></a>
 </div>
 
 ### 📊 GitHub Stats
@@ -117,10 +117,22 @@
 ## Support My Work
 
 <div align="center">
-  <a href="https://buymeacoffee.com/liuh200107q" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60" width="217" />
+  <a href="https://hylouis233.github.io/support/" target="_blank">
+    <img src="https://img.shields.io/badge/Support%20Hub-WeChat%20%7C%20Alipay%20%7C%20Stripe%20%7C%20BTCPay-0f766e?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Support Hub" />
+  </a>
+  <br />
+  <a href="https://buy.stripe.com/9B66oIaXE8Trfa73tIasg03" target="_blank">
+    <img src="https://img.shields.io/badge/Stripe-Monthly%20Support-635bff?style=flat-square&logo=stripe&logoColor=white" alt="Stripe monthly support" />
+  </a>
+  <a href="https://buy.stripe.com/cNibJ27Ls4Db8LJd4iasg01" target="_blank">
+    <img src="https://img.shields.io/badge/Stripe-One--time%20Support-635bff?style=flat-square&logo=stripe&logoColor=white" alt="Stripe one-time support" />
+  </a>
+  <a href="https://223.109.141.77:23443/apps/PersonalSiteSupportPOS/pos" target="_blank">
+    <img src="https://img.shields.io/badge/BTCPay-BTC%20Invoice-f7931a?style=flat-square&logo=bitcoin&logoColor=white" alt="BTCPay BTC invoice" />
   </a>
 </div>
+
+Available support channels: WeChat Pay, Alipay, Stripe monthly support, Stripe one-time support, BTCPay BTC invoices, BTC on-chain, USDT on TRON/TON/EVM/Solana, and USDC on EVM/Solana. All support is voluntary; please confirm the asset and network before sending crypto.
 
 ### Hi there! I'm Hong Liu.
 
