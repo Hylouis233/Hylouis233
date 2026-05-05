@@ -4,6 +4,10 @@ import path from 'node:path';
 const owner = process.env.GITHUB_STATS_OWNER || 'Hylouis233';
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || '';
 const outputDir = path.resolve('github-readme-stats');
+const featuredRepoExclusions = new Set([
+  owner.toLowerCase(),
+  `${owner.toLowerCase()}.github.io`,
+]);
 
 const headers = {
   Accept: 'application/vnd.github+json',
@@ -42,7 +46,8 @@ function escapeXml(value) {
     .replaceAll('"', '&quot;');
 }
 
-function cardSvg({ width = 420, height = 160, title, subtitle = '', body }) {
+function cardSvg({ width = 420, height = 160, title, subtitle = '', body, extraStyle = '' }) {
+  const styleExtension = extraStyle ? `\n    ${extraStyle.trim()}` : '';
   return `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">${escapeXml(title)}</title>
   <desc id="desc">${escapeXml(subtitle || title)}</desc>
@@ -52,7 +57,7 @@ function cardSvg({ width = 420, height = 160, title, subtitle = '', body }) {
     .subtitle { fill: #abb2bf; font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     .label { fill: #abb2bf; font: 500 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     .value { fill: #e5c07b; font: 700 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    .muted { fill: #98c379; font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .muted { fill: #98c379; font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }${styleExtension}
   </style>
   <rect class="card" x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="6" />
   <text class="title" x="20" y="30">${escapeXml(title)}</text>
@@ -106,6 +111,10 @@ function formatDate(value) {
   }).format(new Date(value));
 }
 
+function formatNumber(value) {
+  return new Intl.NumberFormat('en-US').format(value ?? 0);
+}
+
 function repoRows(repos, mode) {
   return repos.map((repo, index) => {
     const y = 72 + index * 31;
@@ -120,6 +129,35 @@ function repoRows(repos, mode) {
   <text class="value" x="402" y="${y}">${repo.stargazers_count}</text>
   <text class="label" x="456" y="${y}">${escapeXml(language)}</text>
   <text class="subtitle" x="350" y="${y + 18}">${escapeXml(date)}</text>`;
+  }).join('\n  ');
+}
+
+function topRepositoryGridRows(repos) {
+  const columnWidth = 350;
+  const cardHeight = 60;
+  const startX = 22;
+  const startY = 68;
+  const gapX = 26;
+  const gapY = 16;
+
+  return repos.map((repo, index) => {
+    const column = index < 3 ? 0 : 1;
+    const row = index % 3;
+    const x = startX + column * (columnWidth + gapX);
+    const y = startY + row * (cardHeight + gapY);
+    const language = repo.language || 'Other';
+    const stars = repo.stargazers_count || 0;
+    const forks = repo.forks_count || 0;
+    const score = stars + forks;
+
+    return `<a href="${escapeXml(repo.html_url)}" target="_blank">
+    <rect x="${x}" y="${y - 25}" width="${columnWidth}" height="${cardHeight}" rx="6" fill="#313640" stroke="#3f4652" />
+    <circle cx="${x + 21}" cy="${y - 3}" r="12" fill="${languageColor(language)}"/>
+    <text class="rank" x="${x + 15}" y="${y + 2}">${index + 1}</text>
+    <text class="repo-name" x="${x + 42}" y="${y - 5}">${escapeXml(truncate(repo.name, 32))}</text>
+    <text class="repo-meta" x="${x + 42}" y="${y + 15}">${escapeXml(truncate(language, 16))} | Stars ${formatNumber(stars)} | Forks ${formatNumber(forks)}</text>
+    <text class="repo-score" x="${x + 265}" y="${y + 15}">Score ${formatNumber(score)}</text>
+  </a>`;
   }).join('\n  ');
 }
 
@@ -198,6 +236,18 @@ async function generate() {
       return new Date(b.updated_at || b.pushed_at) - new Date(a.updated_at || a.pushed_at);
     })
     .slice(0, 5);
+  const topCombinedRepos = [...ownRepos]
+    .filter((repo) => !repo.archived && !featuredRepoExclusions.has(repo.name.toLowerCase()))
+    .sort((a, b) => {
+      const scoreA = (a.stargazers_count || 0) + (a.forks_count || 0);
+      const scoreB = (b.stargazers_count || 0) + (b.forks_count || 0);
+      if (scoreB !== scoreA) return scoreB - scoreA;
+      if ((b.stargazers_count || 0) !== (a.stargazers_count || 0)) {
+        return (b.stargazers_count || 0) - (a.stargazers_count || 0);
+      }
+      return new Date(b.updated_at || b.pushed_at) - new Date(a.updated_at || a.pushed_at);
+    })
+    .slice(0, 6);
 
   const recentReposSvg = cardSvg({
     width: 560,
@@ -216,6 +266,20 @@ async function generate() {
     body: repoRows(topStarredRepos, 'stars'),
   });
   await fs.writeFile(path.join(outputDir, 'top-starred-repos.svg'), topStarredReposSvg);
+
+  const topRepositoriesSvg = cardSvg({
+    width: 770,
+    height: 290,
+    title: 'Featured Research Repositories',
+    subtitle: 'Top 6 owned public repositories by stars + forks, updated daily',
+    extraStyle: `
+    .rank { fill: #282c34; font: 700 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .repo-name { fill: #61afef; font: 700 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .repo-meta { fill: #abb2bf; font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .repo-score { fill: #e5c07b; font: 700 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }`,
+    body: topRepositoryGridRows(topCombinedRepos),
+  });
+  await fs.writeFile(path.join(outputDir, 'top-repositories.svg'), topRepositoriesSvg);
 }
 
 generate().catch((error) => {

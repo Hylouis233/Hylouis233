@@ -32,11 +32,7 @@
 ### 📈 Featured Research Repositories
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-metrics/repositories.pinned.svg" />
-  <br />
-  <a href="https://github.com/Hylouis233/phsciencedata_crawler_region"><img src="https://img.shields.io/badge/phsciencedata_crawler_region-Repository-0f766e?style=flat-square&logo=github&logoColor=white" /></a>
-  <a href="https://github.com/Hylouis233/Breteau-Index-Prediction-Model-using-machine-learning"><img src="https://img.shields.io/badge/Breteau_Index_Prediction-Repository-0f766e?style=flat-square&logo=github&logoColor=white" /></a>
-  <a href="https://github.com/Hylouis233/bibverify"><img src="https://img.shields.io/badge/bibverify-Repository-0f766e?style=flat-square&logo=github&logoColor=white" /></a>
+  <img src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-readme-stats/top-repositories.svg" />
 </div>
 
 ### 🛠️ Tech Stack
