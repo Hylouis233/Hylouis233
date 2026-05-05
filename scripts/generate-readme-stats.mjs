@@ -4,11 +4,6 @@ import path from 'node:path';
 const owner = process.env.GITHUB_STATS_OWNER || 'Hylouis233';
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || '';
 const outputDir = path.resolve('github-readme-stats');
-const featuredRepos = [
-  'phsciencedata_crawler_region',
-  'Breteau-Index-Prediction-Model-using-machine-learning',
-  'bibverify',
-];
 
 const headers = {
   Accept: 'application/vnd.github+json',
@@ -45,11 +40,6 @@ function escapeXml(value) {
     .replaceAll('<', '&lt;')
     .replaceAll('>', '&gt;')
     .replaceAll('"', '&quot;');
-}
-
-function truncate(value, maxLength) {
-  const text = String(value ?? '');
-  return text.length > maxLength ? `${text.slice(0, maxLength - 1)}...` : text;
 }
 
 function cardSvg({ width = 420, height = 160, title, subtitle = '', body }) {
@@ -157,21 +147,6 @@ async function generate() {
   });
   await fs.writeFile(path.join(outputDir, 'top-langs.svg'), topLangsSvg);
 
-  for (const repoName of featuredRepos) {
-    const repo = await github(`/repos/${owner}/${repoName}`);
-    const language = repo.language || 'Repository';
-    const repoSvg = cardSvg({
-      title: repo.name,
-      subtitle: truncate(repo.description || repo.html_url, 72),
-      body: `<text class="label" x="24" y="92">Language</text>
-  <text class="value" x="116" y="92">${escapeXml(language)}</text>
-  <text class="label" x="24" y="126">Stars</text>
-  <text class="value" x="116" y="126">${repo.stargazers_count}</text>
-  <text class="label" x="220" y="126">Forks</text>
-  <text class="value" x="292" y="126">${repo.forks_count}</text>`,
-    });
-    await fs.writeFile(path.join(outputDir, `repo-${repoName}.svg`), repoSvg);
-  }
 }
 
 generate().catch((error) => {
