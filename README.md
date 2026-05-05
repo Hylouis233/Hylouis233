@@ -5,15 +5,16 @@
   <a href="https://hylouis233.github.io/support/"><img src="https://img.shields.io/badge/Support-Research%20and%20Open%20Source-0f766e?style=flat-square&logo=githubsponsors&logoColor=white" /></a>
   <a href="https://buy.stripe.com/9B66oIaXE8Trfa73tIasg03"><img src="https://img.shields.io/badge/Stripe-Monthly%20Support-635bff?style=flat-square&logo=stripe&logoColor=white" /></a>
   <a href="https://buy.stripe.com/8x228sd5M7PnbXVd4iasg04"><img src="https://img.shields.io/badge/Stripe-One--time%20Support-635bff?style=flat-square&logo=stripe&logoColor=white" /></a>
-  <a href="https://223.109.141.77:23443/apps/PersonalSiteSupportPOS/pos"><img src="https://img.shields.io/badge/BTCPay-BTC%20Invoice-f7931a?style=flat-square&logo=bitcoin&logoColor=white" /></a>
+  <a href="https://hylouis233.github.io/support/#usdt-tron"><img src="https://img.shields.io/badge/USDT-Pay-26A17B?style=flat-square&logo=tether&logoColor=white" /></a>
+  <a href="https://hylouis233.github.io/support/#evm-stablecoins"><img src="https://img.shields.io/badge/USDC-Pay-2775CA?style=flat-square&logo=coinbase&logoColor=white" /></a>
+  <a href="https://hylouis233.github.io/support/#btcpay"><img src="https://img.shields.io/badge/BTC-BTCPay%20Invoice-f7931a?style=flat-square&logo=bitcoin&logoColor=white" /></a>
 </div>
 
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-metrics/base.svg" />
-  <br />
-  <img src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-metrics/languages.indepth.svg" />
+  <img height="137px" src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-readme-stats/profile-stats.svg" />
+  <img height="137px" src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-readme-stats/top-langs.svg" />
 </div>
 
 ### 🏆 GitHub Trophies
@@ -31,11 +32,18 @@
 ### 📈 Featured Research Repositories
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-metrics/repositories.pinned.svg" />
-  <br />
-  <a href="https://github.com/Hylouis233/phsciencedata_crawler_region"><img src="https://img.shields.io/badge/phsciencedata_crawler_region-Repository-0f766e?style=flat-square&logo=github&logoColor=white" /></a>
-  <a href="https://github.com/Hylouis233/Breteau-Index-Prediction-Model-using-machine-learning"><img src="https://img.shields.io/badge/Breteau_Index_Prediction-Repository-0f766e?style=flat-square&logo=github&logoColor=white" /></a>
-  <a href="https://github.com/Hylouis233/bibverify"><img src="https://img.shields.io/badge/bibverify-Repository-0f766e?style=flat-square&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Hylouis233/phsciencedata_crawler_region">
+    <img align="top" src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-readme-stats/repo-phsciencedata_crawler_region.svg" />
+  </a>
+  <a href="https://github.com/Hylouis233/Breteau-Index-Prediction-Model-using-machine-learning">
+    <img align="top" src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-readme-stats/repo-Breteau-Index-Prediction-Model-using-machine-learning.svg" />
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://github.com/Hylouis233/bibverify">
+    <img align="top" src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-readme-stats/repo-bibverify.svg" />
+  </a>
 </div>
 
 ### 🛠️ Tech Stack
@@ -124,8 +132,14 @@
   <a href="https://buy.stripe.com/8x228sd5M7PnbXVd4iasg04" target="_blank">
     <img src="https://img.shields.io/badge/Stripe-One--time%20Support-635bff?style=flat-square&logo=stripe&logoColor=white" alt="Stripe one-time support" />
   </a>
-  <a href="https://223.109.141.77:23443/apps/PersonalSiteSupportPOS/pos" target="_blank">
-    <img src="https://img.shields.io/badge/BTCPay-BTC%20Invoice-f7931a?style=flat-square&logo=bitcoin&logoColor=white" alt="BTCPay BTC invoice" />
+  <a href="https://hylouis233.github.io/support/#usdt-tron" target="_blank">
+    <img src="https://img.shields.io/badge/USDT-Pay-26A17B?style=flat-square&logo=tether&logoColor=white" alt="USDT pay" />
+  </a>
+  <a href="https://hylouis233.github.io/support/#evm-stablecoins" target="_blank">
+    <img src="https://img.shields.io/badge/USDC-Pay-2775CA?style=flat-square&logo=coinbase&logoColor=white" alt="USDC pay" />
+  </a>
+  <a href="https://hylouis233.github.io/support/#btcpay" target="_blank">
+    <img src="https://img.shields.io/badge/BTC-BTCPay%20Invoice-f7931a?style=flat-square&logo=bitcoin&logoColor=white" alt="BTC BTCPay invoice" />
   </a>
 </div>
 
