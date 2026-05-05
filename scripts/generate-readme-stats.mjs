@@ -83,6 +83,46 @@ function progressRows(items, total) {
   }).join('\n  ');
 }
 
+function truncate(value, maxLength) {
+  const text = String(value ?? '');
+  return text.length > maxLength ? `${text.slice(0, maxLength - 1)}...` : text;
+}
+
+function cleanText(value) {
+  return String(value ?? '')
+    .replace(/[\u0000-\u001f\u007f]/g, ' ')
+    .replace(/[<>]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function formatDate(value) {
+  if (!value) return 'unknown';
+  return new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'UTC',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).format(new Date(value));
+}
+
+function repoRows(repos, mode) {
+  return repos.map((repo, index) => {
+    const y = 72 + index * 31;
+    const language = repo.language || 'Other';
+    const date = mode === 'recent'
+      ? `Pushed ${formatDate(repo.pushed_at || repo.updated_at)}`
+      : `Updated ${formatDate(repo.updated_at || repo.pushed_at)}`;
+    return `<circle cx="25" cy="${y - 4}" r="4" fill="${languageColor(language)}"/>
+  <text class="title" x="40" y="${y}">${escapeXml(truncate(repo.name, 39))}</text>
+  <text class="muted" x="40" y="${y + 18}">${escapeXml(truncate(cleanText(repo.description || repo.html_url), 62))}</text>
+  <text class="label" x="350" y="${y}">Stars</text>
+  <text class="value" x="402" y="${y}">${repo.stargazers_count}</text>
+  <text class="label" x="456" y="${y}">${escapeXml(language)}</text>
+  <text class="subtitle" x="350" y="${y + 18}">${escapeXml(date)}</text>`;
+  }).join('\n  ');
+}
+
 function languageColor(name) {
   const colors = {
     JavaScript: '#f1e05a',
@@ -147,6 +187,35 @@ async function generate() {
   });
   await fs.writeFile(path.join(outputDir, 'top-langs.svg'), topLangsSvg);
 
+  const recentRepos = [...ownRepos]
+    .filter((repo) => !repo.archived)
+    .sort((a, b) => new Date(b.pushed_at || b.updated_at) - new Date(a.pushed_at || a.updated_at))
+    .slice(0, 5);
+  const topStarredRepos = [...ownRepos]
+    .filter((repo) => !repo.archived)
+    .sort((a, b) => {
+      if (b.stargazers_count !== a.stargazers_count) return b.stargazers_count - a.stargazers_count;
+      return new Date(b.updated_at || b.pushed_at) - new Date(a.updated_at || a.pushed_at);
+    })
+    .slice(0, 5);
+
+  const recentReposSvg = cardSvg({
+    width: 560,
+    height: 240,
+    title: 'Recently Developed Repositories',
+    subtitle: 'Sorted by latest pushed commit from owned public repositories',
+    body: repoRows(recentRepos, 'recent'),
+  });
+  await fs.writeFile(path.join(outputDir, 'recent-repos.svg'), recentReposSvg);
+
+  const topStarredReposSvg = cardSvg({
+    width: 560,
+    height: 240,
+    title: 'Most Starred Repositories',
+    subtitle: 'Sorted by public GitHub star count',
+    body: repoRows(topStarredRepos, 'stars'),
+  });
+  await fs.writeFile(path.join(outputDir, 'top-starred-repos.svg'), topStarredReposSvg);
 }
 
 generate().catch((error) => {

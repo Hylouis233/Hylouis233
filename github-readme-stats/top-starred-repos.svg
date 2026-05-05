@@ -1,0 +1,50 @@
+<svg width="560" height="240" viewBox="0 0 560 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Most Starred Repositories</title>
+  <desc id="desc">Sorted by public GitHub star count</desc>
+  <style>
+    .card { fill: #282c34; stroke: #3a404b; stroke-width: 1; }
+    .title { fill: #61afef; font: 600 17px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .subtitle { fill: #abb2bf; font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .label { fill: #abb2bf; font: 500 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .value { fill: #e5c07b; font: 700 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .muted { fill: #98c379; font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  </style>
+  <rect class="card" x="0.5" y="0.5" width="559" height="239" rx="6" />
+  <text class="title" x="20" y="30">Most Starred Repositories</text>
+  <text class="subtitle" x="20" y="51">Sorted by public GitHub star count</text>
+  <circle cx="25" cy="68" r="4" fill="#3572A5"/>
+  <text class="title" x="40" y="72">phsciencedata_crawler_region</text>
+  <text class="muted" x="40" y="90">公共卫生数据科学中心疾病数据分地区爬虫</text>
+  <text class="label" x="350" y="72">Stars</text>
+  <text class="value" x="402" y="72">5</text>
+  <text class="label" x="456" y="72">Python</text>
+  <text class="subtitle" x="350" y="90">Updated 2026-04-22</text>
+  <circle cx="25" cy="99" r="4" fill="#3572A5"/>
+  <text class="title" x="40" y="103">Breteau-Index-Prediction-Model-using-m...</text>
+  <text class="muted" x="40" y="121">supplementary codes for research &quot;A Breteau Index Prediction ...</text>
+  <text class="label" x="350" y="103">Stars</text>
+  <text class="value" x="402" y="103">1</text>
+  <text class="label" x="456" y="103">Python</text>
+  <text class="subtitle" x="350" y="121">Updated 2025-03-23</text>
+  <circle cx="25" cy="130" r="4" fill="#f1e05a"/>
+  <text class="title" x="40" y="134">Hylouis233</text>
+  <text class="muted" x="40" y="152">Config files for my GitHub profile.</text>
+  <text class="label" x="350" y="134">Stars</text>
+  <text class="value" x="402" y="134">0</text>
+  <text class="label" x="456" y="134">JavaScript</text>
+  <text class="subtitle" x="350" y="152">Updated 2026-05-05</text>
+  <circle cx="25" cy="161" r="4" fill="#98c379"/>
+  <text class="title" x="40" y="165">Hylouis233.github.io</text>
+  <text class="muted" x="40" y="183">https://github.com/Hylouis233/Hylouis233.github.io</text>
+  <text class="label" x="350" y="165">Stars</text>
+  <text class="value" x="402" y="165">0</text>
+  <text class="label" x="456" y="165">Astro</text>
+  <text class="subtitle" x="350" y="183">Updated 2026-05-05</text>
+  <circle cx="25" cy="192" r="4" fill="#f1e05a"/>
+  <text class="title" x="40" y="196">epic-site-pages</text>
+  <text class="muted" x="40" y="214">Static EPIC public infectious-disease dashboard</text>
+  <text class="label" x="350" y="196">Stars</text>
+  <text class="value" x="402" y="196">0</text>
+  <text class="label" x="456" y="196">JavaScript</text>
+  <text class="subtitle" x="350" y="214">Updated 2026-05-05</text>
+</svg>
