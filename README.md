@@ -5,8 +5,8 @@
   <a href="https://hylouis233.github.io/support/"><img src="https://img.shields.io/badge/Support-Research%20and%20Open%20Source-0f766e?style=flat-square&logo=githubsponsors&logoColor=white" /></a>
   <a href="https://buy.stripe.com/9B66oIaXE8Trfa73tIasg03"><img src="https://img.shields.io/badge/Stripe-Monthly%20Support-635bff?style=flat-square&logo=stripe&logoColor=white" /></a>
   <a href="https://buy.stripe.com/8x228sd5M7PnbXVd4iasg04"><img src="https://img.shields.io/badge/Stripe-One--time%20Support-635bff?style=flat-square&logo=stripe&logoColor=white" /></a>
-  <a href="https://hylouis233.github.io/support/#usdt-tron"><img src="https://img.shields.io/badge/USDT-Pay-26A17B?style=flat-square&logo=tether&logoColor=white" /></a>
-  <a href="https://hylouis233.github.io/support/#evm-stablecoins"><img src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/assets/badges/usdc-pay.svg" /></a>
+  <a href="https://hylouis233.github.io/support/#btcpay-stablecoins"><img src="https://img.shields.io/badge/USDT-Pay-26A17B?style=flat-square&logo=tether&logoColor=white" /></a>
+  <a href="https://hylouis233.github.io/support/#btcpay-stablecoins"><img src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/assets/badges/usdc-pay.svg" /></a>
   <a href="https://hylouis233.github.io/support/#btcpay"><img src="https://img.shields.io/badge/BTC-BTCPay%20Invoice-f7931a?style=flat-square&logo=bitcoin&logoColor=white" /></a>
 </div>
 
@@ -127,10 +127,10 @@
   <a href="https://buy.stripe.com/8x228sd5M7PnbXVd4iasg04" target="_blank">
     <img src="https://img.shields.io/badge/Stripe-One--time%20Support-635bff?style=flat-square&logo=stripe&logoColor=white" alt="Stripe one-time support" />
   </a>
-  <a href="https://hylouis233.github.io/support/#usdt-tron" target="_blank">
+  <a href="https://hylouis233.github.io/support/#btcpay-stablecoins" target="_blank">
     <img src="https://img.shields.io/badge/USDT-Pay-26A17B?style=flat-square&logo=tether&logoColor=white" alt="USDT pay" />
   </a>
-  <a href="https://hylouis233.github.io/support/#evm-stablecoins" target="_blank">
+  <a href="https://hylouis233.github.io/support/#btcpay-stablecoins" target="_blank">
     <img src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/assets/badges/usdc-pay.svg" alt="USDC pay" />
   </a>
   <a href="https://hylouis233.github.io/support/#btcpay" target="_blank">
@@ -138,7 +138,7 @@
   </a>
 </div>
 
-Available support channels: WeChat Pay, Alipay, Stripe monthly support, Stripe one-time support, USDT on TRON/TON/EVM/Solana, USDC on EVM/Solana, BTCPay BTC invoices, and BTC on-chain. BTC on-chain can fail for very small amounts because of dust thresholds, so USDT/USDC is usually easier for small crypto support. All support is voluntary; please confirm the asset and network before sending crypto.
+Available support channels: WeChat Pay, Alipay, Stripe monthly support, Stripe one-time support, BTCPay USDT/USDC invoices, USDT on TRON/TON/EVM/Solana, USDC on EVM/Solana, BTCPay BTC invoices, and BTC on-chain. BTC on-chain can fail for very small amounts because of dust thresholds, so USDT/USDC is usually easier for small crypto support. All support is voluntary; please confirm the asset and network before sending crypto.
 
 ### Hi there! I'm Hong Liu.
 
