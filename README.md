@@ -3,13 +3,17 @@
   <a href="mailto:liuh200107@gmail.com"><img src="https://img.shields.io/badge/Email-liuh200107%40gmail.com-d14836?style=flat-square&logo=gmail&logoColor=white" /></a>
   <a href="mailto:hylouis@qq.com"><img src="https://img.shields.io/badge/QQ%20Mail-hylouis%40qq.com-12b7f5?style=flat-square&logo=tencentqq&logoColor=white" /></a>
   <a href="https://hylouis233.github.io/support/"><img src="https://img.shields.io/badge/Support-Research%20and%20Open%20Source-0f766e?style=flat-square&logo=githubsponsors&logoColor=white" /></a>
+  <a href="https://buy.stripe.com/9B66oIaXE8Trfa73tIasg03"><img src="https://img.shields.io/badge/Stripe-Monthly%20Support-635bff?style=flat-square&logo=stripe&logoColor=white" /></a>
+  <a href="https://buy.stripe.com/8x228sd5M7PnbXVd4iasg04"><img src="https://img.shields.io/badge/Stripe-One--time%20Support-635bff?style=flat-square&logo=stripe&logoColor=white" /></a>
+  <a href="https://223.109.141.77:23443/apps/PersonalSiteSupportPOS/pos"><img src="https://img.shields.io/badge/BTCPay-BTC%20Invoice-f7931a?style=flat-square&logo=bitcoin&logoColor=white" /></a>
 </div>
 
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img height="137px" src="https://github-readme-stats.vercel.app/api?username=Hylouis233&hide_title=true&hide_border=true&show_icons=true&line_height=21&theme=onedark" />
-  <img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hylouis233&hide_title=true&hide_border=true&layout=compact&langs_count=6&theme=onedark" />
+  <img src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-metrics/base.svg" />
+  <br />
+  <img src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-metrics/languages.indepth.svg" />
 </div>
 
 ### 🏆 GitHub Trophies
@@ -27,18 +31,11 @@
 ### 📈 Featured Research Repositories
 
 <div align="center">
-  <a href="https://github.com/Hylouis233/phsciencedata_crawler_region">
-    <img align="top" src="https://github-readme-stats.vercel.app/api/pin/?username=Hylouis233&repo=phsciencedata_crawler_region&theme=onedark&bg_color=00000000&hide_border=true&description_lines_count=2&v=2" />
-  </a>
-  <a href="https://github.com/Hylouis233/Breteau-Index-Prediction-Model-using-machine-learning">
-    <img align="top" src="https://github-readme-stats.vercel.app/api/pin/?username=Hylouis233&repo=Breteau-Index-Prediction-Model-using-machine-learning&theme=onedark&bg_color=00000000&hide_border=true&description_lines_count=2&v=2" />
-  </a>
-</div>
-
-<div align="center">
-  <a href="https://github.com/Hylouis233/bibverify">
-    <img align="top" src="https://github-readme-stats.vercel.app/api/pin/?username=Hylouis233&repo=bibverify&theme=onedark&bg_color=00000000&hide_border=true&description_lines_count=2&v=2" />
-  </a>
+  <img src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-metrics/repositories.pinned.svg" />
+  <br />
+  <a href="https://github.com/Hylouis233/phsciencedata_crawler_region"><img src="https://img.shields.io/badge/phsciencedata_crawler_region-Repository-0f766e?style=flat-square&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Hylouis233/Breteau-Index-Prediction-Model-using-machine-learning"><img src="https://img.shields.io/badge/Breteau_Index_Prediction-Repository-0f766e?style=flat-square&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Hylouis233/bibverify"><img src="https://img.shields.io/badge/bibverify-Repository-0f766e?style=flat-square&logo=github&logoColor=white" /></a>
 </div>
 
 ### 🛠️ Tech Stack
@@ -124,7 +121,7 @@
   <a href="https://buy.stripe.com/9B66oIaXE8Trfa73tIasg03" target="_blank">
     <img src="https://img.shields.io/badge/Stripe-Monthly%20Support-635bff?style=flat-square&logo=stripe&logoColor=white" alt="Stripe monthly support" />
   </a>
-  <a href="https://buy.stripe.com/cNibJ27Ls4Db8LJd4iasg01" target="_blank">
+  <a href="https://buy.stripe.com/8x228sd5M7PnbXVd4iasg04" target="_blank">
     <img src="https://img.shields.io/badge/Stripe-One--time%20Support-635bff?style=flat-square&logo=stripe&logoColor=white" alt="Stripe one-time support" />
   </a>
   <a href="https://223.109.141.77:23443/apps/PersonalSiteSupportPOS/pos" target="_blank">
@@ -132,7 +129,7 @@
   </a>
 </div>
 
-Available support channels: WeChat Pay, Alipay, Stripe monthly support, Stripe one-time support, BTCPay BTC invoices, BTC on-chain, USDT on TRON/TON/EVM/Solana, and USDC on EVM/Solana. All support is voluntary; please confirm the asset and network before sending crypto.
+Available support channels: WeChat Pay, Alipay, Stripe monthly support, Stripe one-time support, USDT on TRON/TON/EVM/Solana, USDC on EVM/Solana, BTCPay BTC invoices, and BTC on-chain. BTC on-chain can fail for very small amounts because of dust thresholds, so USDT/USDC is usually easier for small crypto support. All support is voluntary; please confirm the asset and network before sending crypto.
 
 ### Hi there! I'm Hong Liu.
 
