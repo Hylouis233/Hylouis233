@@ -271,7 +271,7 @@ async function generate() {
     width: 770,
     height: 290,
     title: 'Featured Research Repositories',
-    subtitle: 'Top 6 owned public repositories by stars + forks, updated daily',
+    subtitle: '',
     extraStyle: `
     .rank { fill: #282c34; font: 700 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     .repo-name { fill: #61afef; font: 700 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
