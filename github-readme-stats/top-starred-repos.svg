@@ -26,25 +26,25 @@
   <text class="value" x="402" y="103">1</text>
   <text class="label" x="456" y="103">Python</text>
   <text class="subtitle" x="350" y="121">Updated 2025-03-23</text>
-  <circle cx="25" cy="130" r="4" fill="#98c379"/>
-  <text class="title" x="40" y="134">Hylouis233.github.io</text>
-  <text class="muted" x="40" y="152">https://github.com/Hylouis233/Hylouis233.github.io</text>
+  <circle cx="25" cy="130" r="4" fill="#f1e05a"/>
+  <text class="title" x="40" y="134">epic-site-pages</text>
+  <text class="muted" x="40" y="152">Static EPIC public infectious-disease dashboard</text>
   <text class="label" x="350" y="134">Stars</text>
   <text class="value" x="402" y="134">0</text>
-  <text class="label" x="456" y="134">Astro</text>
-  <text class="subtitle" x="350" y="152">Updated 2026-05-06</text>
+  <text class="label" x="456" y="134">JavaScript</text>
+  <text class="subtitle" x="350" y="152">Updated 2026-05-07</text>
   <circle cx="25" cy="161" r="4" fill="#f1e05a"/>
-  <text class="title" x="40" y="165">epic-site-pages</text>
-  <text class="muted" x="40" y="183">Static EPIC public infectious-disease dashboard</text>
+  <text class="title" x="40" y="165">Hylouis233</text>
+  <text class="muted" x="40" y="183">Config files for my GitHub profile.</text>
   <text class="label" x="350" y="165">Stars</text>
   <text class="value" x="402" y="165">0</text>
   <text class="label" x="456" y="165">JavaScript</text>
-  <text class="subtitle" x="350" y="183">Updated 2026-05-06</text>
-  <circle cx="25" cy="192" r="4" fill="#f1e05a"/>
-  <text class="title" x="40" y="196">Hylouis233</text>
-  <text class="muted" x="40" y="214">Config files for my GitHub profile.</text>
+  <text class="subtitle" x="350" y="183">Updated 2026-05-07</text>
+  <circle cx="25" cy="192" r="4" fill="#98c379"/>
+  <text class="title" x="40" y="196">Hylouis233.github.io</text>
+  <text class="muted" x="40" y="214">https://github.com/Hylouis233/Hylouis233.github.io</text>
   <text class="label" x="350" y="196">Stars</text>
   <text class="value" x="402" y="196">0</text>
-  <text class="label" x="456" y="196">JavaScript</text>
+  <text class="label" x="456" y="196">Astro</text>
   <text class="subtitle" x="350" y="214">Updated 2026-05-06</text>
 </svg>

@@ -12,26 +12,26 @@
   <rect class="card" x="0.5" y="0.5" width="559" height="239" rx="6" />
   <text class="title" x="20" y="30">Recently Developed Repositories</text>
   <text class="subtitle" x="20" y="51">Sorted by latest pushed commit from owned public repositories</text>
-  <circle cx="25" cy="68" r="4" fill="#98c379"/>
-  <text class="title" x="40" y="72">Hylouis233.github.io</text>
-  <text class="muted" x="40" y="90">https://github.com/Hylouis233/Hylouis233.github.io</text>
+  <circle cx="25" cy="68" r="4" fill="#f1e05a"/>
+  <text class="title" x="40" y="72">epic-site-pages</text>
+  <text class="muted" x="40" y="90">Static EPIC public infectious-disease dashboard</text>
   <text class="label" x="350" y="72">Stars</text>
   <text class="value" x="402" y="72">0</text>
-  <text class="label" x="456" y="72">Astro</text>
-  <text class="subtitle" x="350" y="90">Pushed 2026-05-06</text>
+  <text class="label" x="456" y="72">JavaScript</text>
+  <text class="subtitle" x="350" y="90">Pushed 2026-05-07</text>
   <circle cx="25" cy="99" r="4" fill="#f1e05a"/>
-  <text class="title" x="40" y="103">epic-site-pages</text>
-  <text class="muted" x="40" y="121">Static EPIC public infectious-disease dashboard</text>
+  <text class="title" x="40" y="103">Hylouis233</text>
+  <text class="muted" x="40" y="121">Config files for my GitHub profile.</text>
   <text class="label" x="350" y="103">Stars</text>
   <text class="value" x="402" y="103">0</text>
   <text class="label" x="456" y="103">JavaScript</text>
-  <text class="subtitle" x="350" y="121">Pushed 2026-05-06</text>
-  <circle cx="25" cy="130" r="4" fill="#f1e05a"/>
-  <text class="title" x="40" y="134">Hylouis233</text>
-  <text class="muted" x="40" y="152">Config files for my GitHub profile.</text>
+  <text class="subtitle" x="350" y="121">Pushed 2026-05-07</text>
+  <circle cx="25" cy="130" r="4" fill="#98c379"/>
+  <text class="title" x="40" y="134">Hylouis233.github.io</text>
+  <text class="muted" x="40" y="152">https://github.com/Hylouis233/Hylouis233.github.io</text>
   <text class="label" x="350" y="134">Stars</text>
   <text class="value" x="402" y="134">0</text>
-  <text class="label" x="456" y="134">JavaScript</text>
+  <text class="label" x="456" y="134">Astro</text>
   <text class="subtitle" x="350" y="152">Pushed 2026-05-06</text>
   <circle cx="25" cy="161" r="4" fill="#3572A5"/>
   <text class="title" x="40" y="165">bibverify</text>
