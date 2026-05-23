@@ -18,33 +18,33 @@
   <text class="label" x="350" y="72">Stars</text>
   <text class="value" x="402" y="72">0</text>
   <text class="label" x="456" y="72">JavaScript</text>
-  <text class="subtitle" x="350" y="90">Pushed 2026-05-22</text>
-  <circle cx="25" cy="99" r="4" fill="#f1e05a"/>
-  <text class="title" x="40" y="103">Hylouis233</text>
-  <text class="muted" x="40" y="121">Config files for my GitHub profile.</text>
+  <text class="subtitle" x="350" y="90">Pushed 2026-05-23</text>
+  <circle cx="25" cy="99" r="4" fill="#98c379"/>
+  <text class="title" x="40" y="103">rokid-glasses-suite</text>
+  <text class="muted" x="40" y="121">Rokid Glasses 智能生态开发套件：Home Assistant、OpenClaw、Hermes 连接件</text>
   <text class="label" x="350" y="103">Stars</text>
   <text class="value" x="402" y="103">0</text>
-  <text class="label" x="456" y="103">JavaScript</text>
-  <text class="subtitle" x="350" y="121">Pushed 2026-05-22</text>
-  <circle cx="25" cy="130" r="4" fill="#3572A5"/>
-  <text class="title" x="40" y="134">ha-95598</text>
-  <text class="muted" x="40" y="152">Fork of renxiaoyaoo/ha-95598 with enhanced captcha solver</text>
+  <text class="label" x="456" y="103">Go</text>
+  <text class="subtitle" x="350" y="121">Pushed 2026-05-23</text>
+  <circle cx="25" cy="130" r="4" fill="#98c379"/>
+  <text class="title" x="40" y="134">rokid-ha-control-kit</text>
+  <text class="muted" x="40" y="152">Rokid Glasses 到 Home Assistant 的控制套件</text>
   <text class="label" x="350" y="134">Stars</text>
   <text class="value" x="402" y="134">0</text>
-  <text class="label" x="456" y="134">Python</text>
-  <text class="subtitle" x="350" y="152">Pushed 2026-05-21</text>
-  <circle cx="25" cy="161" r="4" fill="#98c379"/>
-  <text class="title" x="40" y="165">Hylouis233.github.io</text>
-  <text class="muted" x="40" y="183">https://github.com/Hylouis233/Hylouis233.github.io</text>
+  <text class="label" x="456" y="134">Go</text>
+  <text class="subtitle" x="350" y="152">Pushed 2026-05-23</text>
+  <circle cx="25" cy="161" r="4" fill="#3178c6"/>
+  <text class="title" x="40" y="165">rokid-lingzhu-openclaw</text>
+  <text class="muted" x="40" y="183">Rokid 灵珠平台到 OpenClaw 的插件</text>
   <text class="label" x="350" y="165">Stars</text>
   <text class="value" x="402" y="165">0</text>
-  <text class="label" x="456" y="165">Astro</text>
-  <text class="subtitle" x="350" y="183">Pushed 2026-05-15</text>
-  <circle cx="25" cy="192" r="4" fill="#f1e05a"/>
-  <text class="title" x="40" y="196">chatgpt-converter</text>
-  <text class="muted" x="40" y="214">ChatGPT JSON to CPA/SUB converter - browser-only tool</text>
+  <text class="label" x="456" y="165">TypeScript</text>
+  <text class="subtitle" x="350" y="183">Pushed 2026-05-23</text>
+  <circle cx="25" cy="192" r="4" fill="#98c379"/>
+  <text class="title" x="40" y="196">rokid-hermes-connector</text>
+  <text class="muted" x="40" y="214">Rokid Glasses 到 Home Assistant Conversation 和 Hermes MQTT 的桥接...</text>
   <text class="label" x="350" y="196">Stars</text>
   <text class="value" x="402" y="196">0</text>
-  <text class="label" x="456" y="196">JavaScript</text>
-  <text class="subtitle" x="350" y="214">Pushed 2026-05-14</text>
+  <text class="label" x="456" y="196">Go</text>
+  <text class="subtitle" x="350" y="214">Pushed 2026-05-23</text>
 </svg>

@@ -14,26 +14,26 @@
   <text class="subtitle" x="20" y="51">Aggregated from owned public repositories</text>
   <text class="label" x="22" y="72">Python</text>
   <rect x="138" y="61" width="180" height="9" rx="4.5" fill="#3a404b"/>
-  <rect x="138" y="61" width="151" height="9" rx="4.5" fill="#3572A5"/>
-  <text class="muted" x="330" y="72">83.8%</text>
-  <text class="label" x="22" y="97">Astro</text>
+  <rect x="138" y="61" width="145" height="9" rx="4.5" fill="#3572A5"/>
+  <text class="muted" x="330" y="72">80.3%</text>
+  <text class="label" x="22" y="97">TypeScript</text>
   <rect x="138" y="86" width="180" height="9" rx="4.5" fill="#3a404b"/>
-  <rect x="138" y="86" width="9" height="9" rx="4.5" fill="#98c379"/>
-  <text class="muted" x="330" y="97">5.3%</text>
-  <text class="label" x="22" y="122">JavaScript</text>
+  <rect x="138" y="86" width="10" height="9" rx="4.5" fill="#3178c6"/>
+  <text class="muted" x="330" y="97">5.6%</text>
+  <text class="label" x="22" y="122">Astro</text>
   <rect x="138" y="111" width="180" height="9" rx="4.5" fill="#3a404b"/>
-  <rect x="138" y="111" width="9" height="9" rx="4.5" fill="#f1e05a"/>
-  <text class="muted" x="330" y="122">4.8%</text>
-  <text class="label" x="22" y="147">TypeScript</text>
+  <rect x="138" y="111" width="9" height="9" rx="4.5" fill="#98c379"/>
+  <text class="muted" x="330" y="122">5.0%</text>
+  <text class="label" x="22" y="147">JavaScript</text>
   <rect x="138" y="136" width="180" height="9" rx="4.5" fill="#3a404b"/>
-  <rect x="138" y="136" width="6" height="9" rx="4.5" fill="#3178c6"/>
-  <text class="muted" x="330" y="147">3.2%</text>
-  <text class="label" x="22" y="172">MDX</text>
+  <rect x="138" y="136" width="8" height="9" rx="4.5" fill="#f1e05a"/>
+  <text class="muted" x="330" y="147">4.6%</text>
+  <text class="label" x="22" y="172">Go</text>
   <rect x="138" y="161" width="180" height="9" rx="4.5" fill="#3a404b"/>
-  <rect x="138" y="161" width="4" height="9" rx="4.5" fill="#98c379"/>
-  <text class="muted" x="330" y="172">1.5%</text>
-  <text class="label" x="22" y="197">CSS</text>
+  <rect x="138" y="161" width="5" height="9" rx="4.5" fill="#98c379"/>
+  <text class="muted" x="330" y="172">3.0%</text>
+  <text class="label" x="22" y="197">MDX</text>
   <rect x="138" y="186" width="180" height="9" rx="4.5" fill="#3a404b"/>
-  <rect x="138" y="186" width="4" height="9" rx="4.5" fill="#563d7c"/>
+  <rect x="138" y="186" width="4" height="9" rx="4.5" fill="#98c379"/>
   <text class="muted" x="330" y="197">1.5%</text>
 </svg>
