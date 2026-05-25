@@ -56,12 +56,12 @@
     <text class="repo-meta" x="440" y="159">JavaScript | Stars 0 | Forks 0</text>
     <text class="repo-score" x="663" y="159">Score 0</text>
   </a>
-  <a href="https://github.com/Hylouis233/rokid-glasses-suite" target="_blank">
+  <a href="https://github.com/Hylouis233/genskin-ai-opc" target="_blank">
     <rect x="398" y="195" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />
-    <circle cx="419" cy="217" r="12" fill="#98c379"/>
+    <circle cx="419" cy="217" r="12" fill="#e34c26"/>
     <text class="rank" x="413" y="222">6</text>
-    <text class="repo-name" x="440" y="215">rokid-glasses-suite</text>
-    <text class="repo-meta" x="440" y="235">Go | Stars 0 | Forks 0</text>
+    <text class="repo-name" x="440" y="215">genskin-ai-opc</text>
+    <text class="repo-meta" x="440" y="235">HTML | Stars 0 | Forks 0</text>
     <text class="repo-score" x="663" y="235">Score 0</text>
   </a>
 </svg>
