@@ -32,14 +32,14 @@
   <text class="label" x="350" y="134">Stars</text>
   <text class="value" x="402" y="134">0</text>
   <text class="label" x="456" y="134">JavaScript</text>
-  <text class="subtitle" x="350" y="152">Updated 2026-05-31</text>
+  <text class="subtitle" x="350" y="152">Updated 2026-06-01</text>
   <circle cx="25" cy="161" r="4" fill="#f1e05a"/>
   <text class="title" x="40" y="165">Hylouis233</text>
   <text class="muted" x="40" y="183">Config files for my GitHub profile.</text>
   <text class="label" x="350" y="165">Stars</text>
   <text class="value" x="402" y="165">0</text>
   <text class="label" x="456" y="165">JavaScript</text>
-  <text class="subtitle" x="350" y="183">Updated 2026-05-31</text>
+  <text class="subtitle" x="350" y="183">Updated 2026-06-01</text>
   <circle cx="25" cy="192" r="4" fill="#98c379"/>
   <text class="title" x="40" y="196">rokid-ha-control-kit</text>
   <text class="muted" x="40" y="214">Rokid Glasses 到 Home Assistant 的控制套件</text>
