@@ -56,12 +56,12 @@
     <text class="repo-meta" x="440" y="159">JavaScript | Stars 0 | Forks 0</text>
     <text class="repo-score" x="663" y="159">Score 0</text>
   </a>
-  <a href="https://github.com/Hylouis233/rokid-ha-control-kit" target="_blank">
+  <a href="https://github.com/Hylouis233/hanta-scientific-data-resource" target="_blank">
     <rect x="398" y="195" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />
-    <circle cx="419" cy="217" r="12" fill="#98c379"/>
+    <circle cx="419" cy="217" r="12" fill="#3572A5"/>
     <text class="rank" x="413" y="222">6</text>
-    <text class="repo-name" x="440" y="215">rokid-ha-control-kit</text>
-    <text class="repo-meta" x="440" y="235">Go | Stars 0 | Forks 0</text>
+    <text class="repo-name" x="440" y="215">hanta-scientific-data-resource</text>
+    <text class="repo-meta" x="440" y="235">Python | Stars 0 | Forks 0</text>
     <text class="repo-score" x="663" y="235">Score 0</text>
   </a>
 </svg>
