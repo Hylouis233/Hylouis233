@@ -24,44 +24,44 @@
     <text class="repo-meta" x="64" y="83">Python | Stars 5 | Forks 0</text>
     <text class="repo-score" x="287" y="83">Score 5</text>
   </a>
-  <a href="https://github.com/Hylouis233/Breteau-Index-Prediction-Model-using-machine-learning" target="_blank">
+  <a href="https://github.com/Hylouis233/bibverify" target="_blank">
     <rect x="22" y="119" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />
     <circle cx="43" cy="141" r="12" fill="#3572A5"/>
     <text class="rank" x="37" y="146">2</text>
-    <text class="repo-name" x="64" y="139">Breteau-Index-Prediction-Model-...</text>
+    <text class="repo-name" x="64" y="139">bibverify</text>
     <text class="repo-meta" x="64" y="159">Python | Stars 1 | Forks 0</text>
     <text class="repo-score" x="287" y="159">Score 1</text>
   </a>
-  <a href="https://github.com/Hylouis233/chatgpt-converter" target="_blank">
+  <a href="https://github.com/Hylouis233/Breteau-Index-Prediction-Model-using-machine-learning" target="_blank">
     <rect x="22" y="195" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />
-    <circle cx="43" cy="217" r="12" fill="#f1e05a"/>
+    <circle cx="43" cy="217" r="12" fill="#3572A5"/>
     <text class="rank" x="37" y="222">3</text>
-    <text class="repo-name" x="64" y="215">chatgpt-converter</text>
-    <text class="repo-meta" x="64" y="235">JavaScript | Stars 0 | Forks 1</text>
+    <text class="repo-name" x="64" y="215">Breteau-Index-Prediction-Model-...</text>
+    <text class="repo-meta" x="64" y="235">Python | Stars 1 | Forks 0</text>
     <text class="repo-score" x="287" y="235">Score 1</text>
   </a>
-  <a href="https://github.com/Hylouis233/ODE-Petri-Chikungunya" target="_blank">
+  <a href="https://github.com/Hylouis233/chatgpt-converter" target="_blank">
     <rect x="398" y="43" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />
-    <circle cx="419" cy="65" r="12" fill="#3572A5"/>
+    <circle cx="419" cy="65" r="12" fill="#f1e05a"/>
     <text class="rank" x="413" y="70">4</text>
-    <text class="repo-name" x="440" y="63">ODE-Petri-Chikungunya</text>
-    <text class="repo-meta" x="440" y="83">Python | Stars 0 | Forks 1</text>
+    <text class="repo-name" x="440" y="63">chatgpt-converter</text>
+    <text class="repo-meta" x="440" y="83">JavaScript | Stars 0 | Forks 1</text>
     <text class="repo-score" x="663" y="83">Score 1</text>
   </a>
-  <a href="https://github.com/Hylouis233/epic-site-pages" target="_blank">
+  <a href="https://github.com/Hylouis233/ODE-Petri-Chikungunya" target="_blank">
     <rect x="398" y="119" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />
-    <circle cx="419" cy="141" r="12" fill="#f1e05a"/>
+    <circle cx="419" cy="141" r="12" fill="#3572A5"/>
     <text class="rank" x="413" y="146">5</text>
-    <text class="repo-name" x="440" y="139">epic-site-pages</text>
-    <text class="repo-meta" x="440" y="159">JavaScript | Stars 0 | Forks 0</text>
-    <text class="repo-score" x="663" y="159">Score 0</text>
+    <text class="repo-name" x="440" y="139">ODE-Petri-Chikungunya</text>
+    <text class="repo-meta" x="440" y="159">Python | Stars 0 | Forks 1</text>
+    <text class="repo-score" x="663" y="159">Score 1</text>
   </a>
-  <a href="https://github.com/Hylouis233/hanta-scientific-data-resource" target="_blank">
+  <a href="https://github.com/Hylouis233/epic-site-pages" target="_blank">
     <rect x="398" y="195" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />
-    <circle cx="419" cy="217" r="12" fill="#3572A5"/>
+    <circle cx="419" cy="217" r="12" fill="#f1e05a"/>
     <text class="rank" x="413" y="222">6</text>
-    <text class="repo-name" x="440" y="215">hanta-scientific-data-resource</text>
-    <text class="repo-meta" x="440" y="235">Python | Stars 0 | Forks 0</text>
+    <text class="repo-name" x="440" y="215">epic-site-pages</text>
+    <text class="repo-meta" x="440" y="235">JavaScript | Stars 0 | Forks 0</text>
     <text class="repo-score" x="663" y="235">Score 0</text>
   </a>
 </svg>

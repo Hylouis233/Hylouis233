@@ -20,31 +20,31 @@
   <text class="label" x="456" y="72">Python</text>
   <text class="subtitle" x="350" y="90">Updated 2026-04-22</text>
   <circle cx="25" cy="99" r="4" fill="#3572A5"/>
-  <text class="title" x="40" y="103">Breteau-Index-Prediction-Model-using-m...</text>
-  <text class="muted" x="40" y="121">supplementary codes for research &quot;A Breteau Index Prediction ...</text>
+  <text class="title" x="40" y="103">bibverify</text>
+  <text class="muted" x="40" y="121">BibTeX文献验证工具 - 通过CrossRef/arXiv/OpenAlex验证引用真实性 | A citation ...</text>
   <text class="label" x="350" y="103">Stars</text>
   <text class="value" x="402" y="103">1</text>
   <text class="label" x="456" y="103">Python</text>
-  <text class="subtitle" x="350" y="121">Updated 2025-03-23</text>
-  <circle cx="25" cy="130" r="4" fill="#f1e05a"/>
-  <text class="title" x="40" y="134">epic-site-pages</text>
-  <text class="muted" x="40" y="152">Static EPIC public infectious-disease dashboard</text>
+  <text class="subtitle" x="350" y="121">Updated 2026-06-03</text>
+  <circle cx="25" cy="130" r="4" fill="#3572A5"/>
+  <text class="title" x="40" y="134">Breteau-Index-Prediction-Model-using-m...</text>
+  <text class="muted" x="40" y="152">supplementary codes for research &quot;A Breteau Index Prediction ...</text>
   <text class="label" x="350" y="134">Stars</text>
-  <text class="value" x="402" y="134">0</text>
-  <text class="label" x="456" y="134">JavaScript</text>
-  <text class="subtitle" x="350" y="152">Updated 2026-06-03</text>
+  <text class="value" x="402" y="134">1</text>
+  <text class="label" x="456" y="134">Python</text>
+  <text class="subtitle" x="350" y="152">Updated 2025-03-23</text>
   <circle cx="25" cy="161" r="4" fill="#f1e05a"/>
-  <text class="title" x="40" y="165">Hylouis233</text>
-  <text class="muted" x="40" y="183">Config files for my GitHub profile.</text>
+  <text class="title" x="40" y="165">epic-site-pages</text>
+  <text class="muted" x="40" y="183">Static EPIC public infectious-disease dashboard</text>
   <text class="label" x="350" y="165">Stars</text>
   <text class="value" x="402" y="165">0</text>
   <text class="label" x="456" y="165">JavaScript</text>
-  <text class="subtitle" x="350" y="183">Updated 2026-06-03</text>
-  <circle cx="25" cy="192" r="4" fill="#3572A5"/>
-  <text class="title" x="40" y="196">hanta-scientific-data-resource</text>
-  <text class="muted" x="40" y="214">Claim-bounded public-data ResearchOps resource for hantavirus...</text>
+  <text class="subtitle" x="350" y="183">Updated 2026-06-04</text>
+  <circle cx="25" cy="192" r="4" fill="#f1e05a"/>
+  <text class="title" x="40" y="196">Hylouis233</text>
+  <text class="muted" x="40" y="214">Config files for my GitHub profile.</text>
   <text class="label" x="350" y="196">Stars</text>
   <text class="value" x="402" y="196">0</text>
-  <text class="label" x="456" y="196">Python</text>
-  <text class="subtitle" x="350" y="214">Updated 2026-06-02</text>
+  <text class="label" x="456" y="196">JavaScript</text>
+  <text class="subtitle" x="350" y="214">Updated 2026-06-04</text>
 </svg>
