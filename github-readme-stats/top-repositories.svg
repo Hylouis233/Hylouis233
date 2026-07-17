@@ -24,20 +24,20 @@
     <text class="repo-meta" x="64" y="83">Python | Stars 5 | Forks 0</text>
     <text class="repo-score" x="287" y="83">Score 5</text>
   </a>
-  <a href="https://github.com/Hylouis233/rokid-lingzhu-openclaw" target="_blank">
-    <rect x="22" y="119" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />
-    <circle cx="43" cy="141" r="12" fill="#3178c6"/>
-    <text class="rank" x="37" y="146">2</text>
-    <text class="repo-name" x="64" y="139">rokid-lingzhu-openclaw</text>
-    <text class="repo-meta" x="64" y="159">TypeScript | Stars 1 | Forks 0</text>
-    <text class="repo-score" x="287" y="159">Score 1</text>
-  </a>
   <a href="https://github.com/Hylouis233/bibverify" target="_blank">
+    <rect x="22" y="119" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />
+    <circle cx="43" cy="141" r="12" fill="#3572A5"/>
+    <text class="rank" x="37" y="146">2</text>
+    <text class="repo-name" x="64" y="139">bibverify</text>
+    <text class="repo-meta" x="64" y="159">Python | Stars 2 | Forks 0</text>
+    <text class="repo-score" x="287" y="159">Score 2</text>
+  </a>
+  <a href="https://github.com/Hylouis233/rokid-lingzhu-openclaw" target="_blank">
     <rect x="22" y="195" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />
-    <circle cx="43" cy="217" r="12" fill="#3572A5"/>
+    <circle cx="43" cy="217" r="12" fill="#3178c6"/>
     <text class="rank" x="37" y="222">3</text>
-    <text class="repo-name" x="64" y="215">bibverify</text>
-    <text class="repo-meta" x="64" y="235">Python | Stars 1 | Forks 0</text>
+    <text class="repo-name" x="64" y="215">rokid-lingzhu-openclaw</text>
+    <text class="repo-meta" x="64" y="235">TypeScript | Stars 1 | Forks 0</text>
     <text class="repo-score" x="287" y="235">Score 1</text>
   </a>
   <a href="https://github.com/Hylouis233/Breteau-Index-Prediction-Model-using-machine-learning" target="_blank">

@@ -19,20 +19,20 @@
   <text class="value" x="402" y="72">5</text>
   <text class="label" x="456" y="72">Python</text>
   <text class="subtitle" x="350" y="90">Updated 2026-04-22</text>
-  <circle cx="25" cy="99" r="4" fill="#3178c6"/>
-  <text class="title" x="40" y="103">rokid-lingzhu-openclaw</text>
-  <text class="muted" x="40" y="121">Rokid 灵珠平台到 OpenClaw 的插件</text>
+  <circle cx="25" cy="99" r="4" fill="#3572A5"/>
+  <text class="title" x="40" y="103">bibverify</text>
+  <text class="muted" x="40" y="121">BibTeX文献验证工具 - 通过CrossRef/arXiv/OpenAlex验证引用真实性 | A citation ...</text>
   <text class="label" x="350" y="103">Stars</text>
-  <text class="value" x="402" y="103">1</text>
-  <text class="label" x="456" y="103">TypeScript</text>
-  <text class="subtitle" x="350" y="121">Updated 2026-06-08</text>
-  <circle cx="25" cy="130" r="4" fill="#3572A5"/>
-  <text class="title" x="40" y="134">bibverify</text>
-  <text class="muted" x="40" y="152">BibTeX文献验证工具 - 通过CrossRef/arXiv/OpenAlex验证引用真实性 | A citation ...</text>
+  <text class="value" x="402" y="103">2</text>
+  <text class="label" x="456" y="103">Python</text>
+  <text class="subtitle" x="350" y="121">Updated 2026-07-16</text>
+  <circle cx="25" cy="130" r="4" fill="#3178c6"/>
+  <text class="title" x="40" y="134">rokid-lingzhu-openclaw</text>
+  <text class="muted" x="40" y="152">Rokid 灵珠平台到 OpenClaw 的插件</text>
   <text class="label" x="350" y="134">Stars</text>
   <text class="value" x="402" y="134">1</text>
-  <text class="label" x="456" y="134">Python</text>
-  <text class="subtitle" x="350" y="152">Updated 2026-06-03</text>
+  <text class="label" x="456" y="134">TypeScript</text>
+  <text class="subtitle" x="350" y="152">Updated 2026-06-08</text>
   <circle cx="25" cy="161" r="4" fill="#3572A5"/>
   <text class="title" x="40" y="165">Breteau-Index-Prediction-Model-using-m...</text>
   <text class="muted" x="40" y="183">supplementary codes for research &quot;A Breteau Index Prediction ...</text>
@@ -46,5 +46,5 @@
   <text class="label" x="350" y="196">Stars</text>
   <text class="value" x="402" y="196">0</text>
   <text class="label" x="456" y="196">JavaScript</text>
-  <text class="subtitle" x="350" y="214">Updated 2026-07-16</text>
+  <text class="subtitle" x="350" y="214">Updated 2026-07-17</text>
 </svg>
