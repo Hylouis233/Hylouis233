@@ -18,33 +18,33 @@
   <text class="label" x="350" y="72">Stars</text>
   <text class="value" x="402" y="72">0</text>
   <text class="label" x="456" y="72">JavaScript</text>
-  <text class="subtitle" x="350" y="90">Pushed 2026-07-21</text>
-  <circle cx="25" cy="99" r="4" fill="#f1e05a"/>
-  <text class="title" x="40" y="103">Hylouis233</text>
-  <text class="muted" x="40" y="121">Config files for my GitHub profile.</text>
+  <text class="subtitle" x="350" y="90">Pushed 2026-07-22</text>
+  <circle cx="25" cy="99" r="4" fill="#3572A5"/>
+  <text class="title" x="40" y="103">therm-vibe-hud</text>
+  <text class="muted" x="40" y="121">https://github.com/Hylouis233/therm-vibe-hud</text>
   <text class="label" x="350" y="103">Stars</text>
   <text class="value" x="402" y="103">0</text>
-  <text class="label" x="456" y="103">JavaScript</text>
-  <text class="subtitle" x="350" y="121">Pushed 2026-07-21</text>
-  <circle cx="25" cy="130" r="4" fill="#3178c6"/>
-  <text class="title" x="40" y="134">cscience-glm-proxy</text>
-  <text class="muted" x="40" y="152">Anthropic→GLM-5.2/MiniMax-M3 proxy for cscience (Claude Scien...</text>
+  <text class="label" x="456" y="103">Python</text>
+  <text class="subtitle" x="350" y="121">Pushed 2026-07-22</text>
+  <circle cx="25" cy="130" r="4" fill="#f1e05a"/>
+  <text class="title" x="40" y="134">Hylouis233</text>
+  <text class="muted" x="40" y="152">Config files for my GitHub profile.</text>
   <text class="label" x="350" y="134">Stars</text>
   <text class="value" x="402" y="134">0</text>
-  <text class="label" x="456" y="134">TypeScript</text>
-  <text class="subtitle" x="350" y="152">Pushed 2026-07-08</text>
-  <circle cx="25" cy="161" r="4" fill="#3572A5"/>
-  <text class="title" x="40" y="165">hanta-scientific-data-resource</text>
-  <text class="muted" x="40" y="183">Claim-bounded public-data ResearchOps resource for hantavirus...</text>
+  <text class="label" x="456" y="134">JavaScript</text>
+  <text class="subtitle" x="350" y="152">Pushed 2026-07-22</text>
+  <circle cx="25" cy="161" r="4" fill="#3178c6"/>
+  <text class="title" x="40" y="165">cscience-glm-proxy</text>
+  <text class="muted" x="40" y="183">Anthropic→GLM-5.2/MiniMax-M3 proxy for cscience (Claude Scien...</text>
   <text class="label" x="350" y="165">Stars</text>
   <text class="value" x="402" y="165">0</text>
-  <text class="label" x="456" y="165">Python</text>
-  <text class="subtitle" x="350" y="183">Pushed 2026-06-02</text>
-  <circle cx="25" cy="192" r="4" fill="#98c379"/>
-  <text class="title" x="40" y="196">rokid-ha-control-kit</text>
-  <text class="muted" x="40" y="214">Rokid Glasses 到 Home Assistant 的控制套件</text>
+  <text class="label" x="456" y="165">TypeScript</text>
+  <text class="subtitle" x="350" y="183">Pushed 2026-07-08</text>
+  <circle cx="25" cy="192" r="4" fill="#3572A5"/>
+  <text class="title" x="40" y="196">hanta-scientific-data-resource</text>
+  <text class="muted" x="40" y="214">Claim-bounded public-data ResearchOps resource for hantavirus...</text>
   <text class="label" x="350" y="196">Stars</text>
   <text class="value" x="402" y="196">0</text>
-  <text class="label" x="456" y="196">Go</text>
-  <text class="subtitle" x="350" y="214">Pushed 2026-05-30</text>
+  <text class="label" x="456" y="196">Python</text>
+  <text class="subtitle" x="350" y="214">Pushed 2026-06-02</text>
 </svg>
