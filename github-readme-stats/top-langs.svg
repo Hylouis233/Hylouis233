@@ -15,7 +15,7 @@
   <text class="label" x="22" y="72">Python</text>
   <rect x="138" y="61" width="180" height="9" rx="4.5" fill="#3a404b"/>
   <rect x="138" y="61" width="158" height="9" rx="4.5" fill="#3572A5"/>
-  <text class="muted" x="330" y="72">87.9%</text>
+  <text class="muted" x="330" y="72">88.0%</text>
   <text class="label" x="22" y="97">TypeScript</text>
   <rect x="138" y="86" width="180" height="9" rx="4.5" fill="#3a404b"/>
   <rect x="138" y="86" width="7" height="9" rx="4.5" fill="#3178c6"/>
@@ -27,7 +27,7 @@
   <text class="label" x="22" y="147">JavaScript</text>
   <rect x="138" y="136" width="180" height="9" rx="4.5" fill="#3a404b"/>
   <rect x="138" y="136" width="5" height="9" rx="4.5" fill="#f1e05a"/>
-  <text class="muted" x="330" y="147">2.6%</text>
+  <text class="muted" x="330" y="147">2.5%</text>
   <text class="label" x="22" y="172">Go</text>
   <rect x="138" y="161" width="180" height="9" rx="4.5" fill="#3a404b"/>
   <rect x="138" y="161" width="4" height="9" rx="4.5" fill="#98c379"/>
