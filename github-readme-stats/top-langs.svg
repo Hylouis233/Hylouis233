@@ -14,16 +14,16 @@
   <text class="subtitle" x="20" y="51">Aggregated from owned public repositories</text>
   <text class="label" x="22" y="72">Python</text>
   <rect x="138" y="61" width="180" height="9" rx="4.5" fill="#3a404b"/>
-  <rect x="138" y="61" width="158" height="9" rx="4.5" fill="#3572A5"/>
-  <text class="muted" x="330" y="72">88.0%</text>
-  <text class="label" x="22" y="97">TypeScript</text>
+  <rect x="138" y="61" width="157" height="9" rx="4.5" fill="#3572A5"/>
+  <text class="muted" x="330" y="72">87.0%</text>
+  <text class="label" x="22" y="97">Astro</text>
   <rect x="138" y="86" width="180" height="9" rx="4.5" fill="#3a404b"/>
-  <rect x="138" y="86" width="7" height="9" rx="4.5" fill="#3178c6"/>
+  <rect x="138" y="86" width="7" height="9" rx="4.5" fill="#98c379"/>
   <text class="muted" x="330" y="97">4.1%</text>
-  <text class="label" x="22" y="122">Astro</text>
+  <text class="label" x="22" y="122">TypeScript</text>
   <rect x="138" y="111" width="180" height="9" rx="4.5" fill="#3a404b"/>
-  <rect x="138" y="111" width="5" height="9" rx="4.5" fill="#98c379"/>
-  <text class="muted" x="330" y="122">2.8%</text>
+  <rect x="138" y="111" width="7" height="9" rx="4.5" fill="#3178c6"/>
+  <text class="muted" x="330" y="122">3.8%</text>
   <text class="label" x="22" y="147">JavaScript</text>
   <rect x="138" y="136" width="180" height="9" rx="4.5" fill="#3a404b"/>
   <rect x="138" y="136" width="5" height="9" rx="4.5" fill="#f1e05a"/>
@@ -31,7 +31,7 @@
   <text class="label" x="22" y="172">Go</text>
   <rect x="138" y="161" width="180" height="9" rx="4.5" fill="#3a404b"/>
   <rect x="138" y="161" width="4" height="9" rx="4.5" fill="#98c379"/>
-  <text class="muted" x="330" y="172">1.8%</text>
+  <text class="muted" x="330" y="172">1.7%</text>
   <text class="label" x="22" y="197">MDX</text>
   <rect x="138" y="186" width="180" height="9" rx="4.5" fill="#3a404b"/>
   <rect x="138" y="186" width="4" height="9" rx="4.5" fill="#98c379"/>
