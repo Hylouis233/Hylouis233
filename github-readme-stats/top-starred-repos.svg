@@ -30,9 +30,9 @@
   <text class="title" x="40" y="134">codex-invite-cli</text>
   <text class="muted" x="40" y="152">Query and manage ChatGPT Codex referral invites + rewards via...</text>
   <text class="label" x="350" y="134">Stars</text>
-  <text class="value" x="402" y="134">1</text>
+  <text class="value" x="402" y="134">2</text>
   <text class="label" x="456" y="134">Python</text>
-  <text class="subtitle" x="350" y="152">Updated 2026-08-09</text>
+  <text class="subtitle" x="350" y="152">Updated 2026-08-11</text>
   <circle cx="25" cy="161" r="4" fill="#3178c6"/>
   <text class="title" x="40" y="165">rokid-lingzhu-openclaw</text>
   <text class="muted" x="40" y="183">Rokid 灵珠平台到 OpenClaw 的插件</text>
