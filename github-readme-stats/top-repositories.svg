@@ -16,21 +16,21 @@
   <rect class="card" x="0.5" y="0.5" width="769" height="289" rx="6" />
   <text class="title" x="20" y="30">Featured Research Repositories</text>
   
-  <a href="https://github.com/Hylouis233/phsciencedata_crawler_region" target="_blank">
+  <a href="https://github.com/Hylouis233/bibverify" target="_blank">
     <rect x="22" y="43" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />
     <circle cx="43" cy="65" r="12" fill="#3572A5"/>
     <text class="rank" x="37" y="70">1</text>
-    <text class="repo-name" x="64" y="63">phsciencedata_crawler_region</text>
-    <text class="repo-meta" x="64" y="83">Python | Stars 5 | Forks 0</text>
-    <text class="repo-score" x="287" y="83">Score 5</text>
+    <text class="repo-name" x="64" y="63">bibverify</text>
+    <text class="repo-meta" x="64" y="83">Python | Stars 7 | Forks 0</text>
+    <text class="repo-score" x="287" y="83">Score 7</text>
   </a>
-  <a href="https://github.com/Hylouis233/bibverify" target="_blank">
+  <a href="https://github.com/Hylouis233/phsciencedata_crawler_region" target="_blank">
     <rect x="22" y="119" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />
     <circle cx="43" cy="141" r="12" fill="#3572A5"/>
     <text class="rank" x="37" y="146">2</text>
-    <text class="repo-name" x="64" y="139">bibverify</text>
-    <text class="repo-meta" x="64" y="159">Python | Stars 3 | Forks 0</text>
-    <text class="repo-score" x="287" y="159">Score 3</text>
+    <text class="repo-name" x="64" y="139">phsciencedata_crawler_region</text>
+    <text class="repo-meta" x="64" y="159">Python | Stars 5 | Forks 0</text>
+    <text class="repo-score" x="287" y="159">Score 5</text>
   </a>
   <a href="https://github.com/Hylouis233/codex-invite-cli" target="_blank">
     <rect x="22" y="195" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />

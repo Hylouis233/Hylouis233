@@ -13,19 +13,19 @@
   <text class="title" x="20" y="30">Most Starred Repositories</text>
   <text class="subtitle" x="20" y="51">Sorted by public GitHub star count</text>
   <circle cx="25" cy="68" r="4" fill="#3572A5"/>
-  <text class="title" x="40" y="72">phsciencedata_crawler_region</text>
-  <text class="muted" x="40" y="90">公共卫生数据科学中心疾病数据分地区爬虫</text>
+  <text class="title" x="40" y="72">bibverify</text>
+  <text class="muted" x="40" y="90">BibTeX文献验证工具 - 通过CrossRef/arXiv/OpenAlex验证引用真实性 | A citation ...</text>
   <text class="label" x="350" y="72">Stars</text>
-  <text class="value" x="402" y="72">5</text>
+  <text class="value" x="402" y="72">7</text>
   <text class="label" x="456" y="72">Python</text>
-  <text class="subtitle" x="350" y="90">Updated 2026-04-22</text>
+  <text class="subtitle" x="350" y="90">Updated 2026-08-13</text>
   <circle cx="25" cy="99" r="4" fill="#3572A5"/>
-  <text class="title" x="40" y="103">bibverify</text>
-  <text class="muted" x="40" y="121">BibTeX文献验证工具 - 通过CrossRef/arXiv/OpenAlex验证引用真实性 | A citation ...</text>
+  <text class="title" x="40" y="103">phsciencedata_crawler_region</text>
+  <text class="muted" x="40" y="121">公共卫生数据科学中心疾病数据分地区爬虫</text>
   <text class="label" x="350" y="103">Stars</text>
-  <text class="value" x="402" y="103">3</text>
+  <text class="value" x="402" y="103">5</text>
   <text class="label" x="456" y="103">Python</text>
-  <text class="subtitle" x="350" y="121">Updated 2026-07-22</text>
+  <text class="subtitle" x="350" y="121">Updated 2026-04-22</text>
   <circle cx="25" cy="130" r="4" fill="#3572A5"/>
   <text class="title" x="40" y="134">codex-invite-cli</text>
   <text class="muted" x="40" y="152">Query and manage ChatGPT Codex referral invites + rewards via...</text>
