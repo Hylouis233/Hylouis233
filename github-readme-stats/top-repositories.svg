@@ -21,8 +21,8 @@
     <circle cx="43" cy="65" r="12" fill="#3572A5"/>
     <text class="rank" x="37" y="70">1</text>
     <text class="repo-name" x="64" y="63">bibverify</text>
-    <text class="repo-meta" x="64" y="83">Python | Stars 12 | Forks 0</text>
-    <text class="repo-score" x="287" y="83">Score 12</text>
+    <text class="repo-meta" x="64" y="83">Python | Stars 19 | Forks 0</text>
+    <text class="repo-score" x="287" y="83">Score 19</text>
   </a>
   <a href="https://github.com/Hylouis233/phsciencedata_crawler_region" target="_blank">
     <rect x="22" y="119" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />
