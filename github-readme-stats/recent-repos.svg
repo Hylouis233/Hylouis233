@@ -12,26 +12,26 @@
   <rect class="card" x="0.5" y="0.5" width="559" height="239" rx="6" />
   <text class="title" x="20" y="30">Recently Developed Repositories</text>
   <text class="subtitle" x="20" y="51">Sorted by latest pushed commit from owned public repositories</text>
-  <circle cx="25" cy="68" r="4" fill="#f1e05a"/>
-  <text class="title" x="40" y="72">Hylouis233</text>
-  <text class="muted" x="40" y="90">Config files for my GitHub profile.</text>
+  <circle cx="25" cy="68" r="4" fill="#e34c26"/>
+  <text class="title" x="40" y="72">epic-site-pages</text>
+  <text class="muted" x="40" y="90">Static EPIC public infectious-disease dashboard</text>
   <text class="label" x="350" y="72">Stars</text>
   <text class="value" x="402" y="72">0</text>
-  <text class="label" x="456" y="72">JavaScript</text>
-  <text class="subtitle" x="350" y="90">Pushed 2026-08-16</text>
-  <circle cx="25" cy="99" r="4" fill="#3572A5"/>
-  <text class="title" x="40" y="103">bibverify</text>
-  <text class="muted" x="40" y="121">Cross-platform BibTeX verification for researchers and AI ass...</text>
+  <text class="label" x="456" y="72">HTML</text>
+  <text class="subtitle" x="350" y="90">Pushed 2026-08-17</text>
+  <circle cx="25" cy="99" r="4" fill="#f1e05a"/>
+  <text class="title" x="40" y="103">Hylouis233</text>
+  <text class="muted" x="40" y="121">Config files for my GitHub profile.</text>
   <text class="label" x="350" y="103">Stars</text>
-  <text class="value" x="402" y="103">23</text>
-  <text class="label" x="456" y="103">Python</text>
-  <text class="subtitle" x="350" y="121">Pushed 2026-08-15</text>
-  <circle cx="25" cy="130" r="4" fill="#e34c26"/>
-  <text class="title" x="40" y="134">epic-site-pages</text>
-  <text class="muted" x="40" y="152">Static EPIC public infectious-disease dashboard</text>
+  <text class="value" x="402" y="103">0</text>
+  <text class="label" x="456" y="103">JavaScript</text>
+  <text class="subtitle" x="350" y="121">Pushed 2026-08-17</text>
+  <circle cx="25" cy="130" r="4" fill="#3572A5"/>
+  <text class="title" x="40" y="134">bibverify</text>
+  <text class="muted" x="40" y="152">Cross-platform BibTeX verification for researchers and AI ass...</text>
   <text class="label" x="350" y="134">Stars</text>
-  <text class="value" x="402" y="134">0</text>
-  <text class="label" x="456" y="134">HTML</text>
+  <text class="value" x="402" y="134">25</text>
+  <text class="label" x="456" y="134">Python</text>
   <text class="subtitle" x="350" y="152">Pushed 2026-08-15</text>
   <circle cx="25" cy="161" r="4" fill="#3572A5"/>
   <text class="title" x="40" y="165">epic-intel-harness</text>
