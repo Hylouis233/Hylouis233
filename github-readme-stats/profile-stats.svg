@@ -15,11 +15,11 @@
   <text class="label" x="24" y="78">Public repos</text>
   <text class="value" x="116" y="78">72</text>
   <text class="label" x="220" y="78">Stars</text>
-  <text class="value" x="312" y="78">40</text>
+  <text class="value" x="312" y="78">53</text>
   <text class="label" x="24" y="112">Forks</text>
   <text class="value" x="116" y="112">3</text>
   <text class="label" x="220" y="112">Watchers</text>
-  <text class="value" x="312" y="112">40</text>
+  <text class="value" x="312" y="112">53</text>
   <text class="label" x="24" y="146">Followers</text>
   <text class="value" x="116" y="146">10</text>
   <text class="label" x="220" y="146">Public gists</text>
