@@ -156,7 +156,7 @@ I am a strong advocate for Open Science and making research accessible to everyo
 
 Through my research and GitHub repositories, I translate epidemiological models, non-stationary time-series analyses, and multimodal forecasting algorithms into open-source, reproducible code. Four pinned research repositories — [MAESTRO](https://github.com/Hylouis233/MAESTRO), [ODE-Petri-Chikungunya](https://github.com/Hylouis233/ODE-Petri-Chikungunya), [bibverify](https://github.com/Hylouis233/bibverify), and [MultiCoPat](https://github.com/Hylouis233/MultiCoPat) — anchor the research output, alongside supporting data and tooling repositories such as `epic-site-pages` and `phsciencedata_crawler_region`.
 
-I also build [openscience](https://github.com/Hylouis233/openscience), an evidence-first research workflow toolkit with stage gates, literature search, citation verification, and an `science-epi` skill for outbreak analysis, plus [mcodeforlegal](https://github.com/Hylouis233/mcodeforlegal) for Claude Code–native legal workflows.
+I also build [openscience](https://github.com/Hylouis233/openscience), an evidence-first research workflow toolkit with stage gates, literature search, citation verification, and an `science-epi` skill for outbreak analysis, plus [mcodeforlegal](https://github.com/Hylouis233/mcodeforlegal) for Claude Code–native legal workflows. Active research engineering work also lives in [epic-intel-harness](https://github.com/Hylouis233/epic-intel-harness) (deterministic-safety outbreak-intelligence agent benchmarks) and [hanta-scientific-data-resource](https://github.com/Hylouis233/hanta-scientific-data-resource) (DVC + Snakemake ResearchOps for hantavirus / ebola outbreak studies).
 
 🌱 How Your Contributions Make a Difference
 
