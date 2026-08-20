@@ -21,8 +21,8 @@
     <circle cx="43" cy="65" r="12" fill="#3572A5"/>
     <text class="rank" x="37" y="70">1</text>
     <text class="repo-name" x="64" y="63">bibverify</text>
-    <text class="repo-meta" x="64" y="83">Python | Stars 44 | Forks 0</text>
-    <text class="repo-score" x="287" y="83">Score 44</text>
+    <text class="repo-meta" x="64" y="83">Python | Stars 52 | Forks 0</text>
+    <text class="repo-score" x="287" y="83">Score 52</text>
   </a>
   <a href="https://github.com/Hylouis233/phsciencedata_crawler_region" target="_blank">
     <rect x="22" y="119" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />
@@ -40,28 +40,28 @@
     <text class="repo-meta" x="64" y="235">Python | Stars 2 | Forks 1</text>
     <text class="repo-score" x="287" y="235">Score 3</text>
   </a>
-  <a href="https://github.com/Hylouis233/rokid-lingzhu-openclaw" target="_blank">
+  <a href="https://github.com/Hylouis233/mcodeforlegal" target="_blank">
     <rect x="398" y="43" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />
-    <circle cx="419" cy="65" r="12" fill="#3178c6"/>
+    <circle cx="419" cy="65" r="12" fill="#3572A5"/>
     <text class="rank" x="413" y="70">4</text>
-    <text class="repo-name" x="440" y="63">rokid-lingzhu-openclaw</text>
-    <text class="repo-meta" x="440" y="83">TypeScript | Stars 1 | Forks 0</text>
+    <text class="repo-name" x="440" y="63">mcodeforlegal</text>
+    <text class="repo-meta" x="440" y="83">Python | Stars 1 | Forks 0</text>
     <text class="repo-score" x="663" y="83">Score 1</text>
   </a>
-  <a href="https://github.com/Hylouis233/Breteau-Index-Prediction-Model-using-machine-learning" target="_blank">
+  <a href="https://github.com/Hylouis233/rokid-lingzhu-openclaw" target="_blank">
     <rect x="398" y="119" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />
-    <circle cx="419" cy="141" r="12" fill="#3572A5"/>
+    <circle cx="419" cy="141" r="12" fill="#3178c6"/>
     <text class="rank" x="413" y="146">5</text>
-    <text class="repo-name" x="440" y="139">Breteau-Index-Prediction-Model-...</text>
-    <text class="repo-meta" x="440" y="159">Python | Stars 1 | Forks 0</text>
+    <text class="repo-name" x="440" y="139">rokid-lingzhu-openclaw</text>
+    <text class="repo-meta" x="440" y="159">TypeScript | Stars 1 | Forks 0</text>
     <text class="repo-score" x="663" y="159">Score 1</text>
   </a>
-  <a href="https://github.com/Hylouis233/chatgpt-converter" target="_blank">
+  <a href="https://github.com/Hylouis233/Breteau-Index-Prediction-Model-using-machine-learning" target="_blank">
     <rect x="398" y="195" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />
-    <circle cx="419" cy="217" r="12" fill="#f1e05a"/>
+    <circle cx="419" cy="217" r="12" fill="#3572A5"/>
     <text class="rank" x="413" y="222">6</text>
-    <text class="repo-name" x="440" y="215">chatgpt-converter</text>
-    <text class="repo-meta" x="440" y="235">JavaScript | Stars 0 | Forks 1</text>
+    <text class="repo-name" x="440" y="215">Breteau-Index-Prediction-Model-...</text>
+    <text class="repo-meta" x="440" y="235">Python | Stars 1 | Forks 0</text>
     <text class="repo-score" x="663" y="235">Score 1</text>
   </a>
 </svg>

@@ -16,9 +16,9 @@
   <text class="title" x="40" y="72">bibverify</text>
   <text class="muted" x="40" y="90">Cross-platform BibTeX verification for researchers and AI ass...</text>
   <text class="label" x="350" y="72">Stars</text>
-  <text class="value" x="402" y="72">44</text>
+  <text class="value" x="402" y="72">52</text>
   <text class="label" x="456" y="72">Python</text>
-  <text class="subtitle" x="350" y="90">Updated 2026-08-18</text>
+  <text class="subtitle" x="350" y="90">Updated 2026-08-20</text>
   <circle cx="25" cy="99" r="4" fill="#3572A5"/>
   <text class="title" x="40" y="103">phsciencedata_crawler_region</text>
   <text class="muted" x="40" y="121">公共卫生数据科学中心疾病数据分地区爬虫</text>
@@ -33,18 +33,18 @@
   <text class="value" x="402" y="134">2</text>
   <text class="label" x="456" y="134">Python</text>
   <text class="subtitle" x="350" y="152">Updated 2026-08-11</text>
-  <circle cx="25" cy="161" r="4" fill="#3178c6"/>
-  <text class="title" x="40" y="165">rokid-lingzhu-openclaw</text>
-  <text class="muted" x="40" y="183">Rokid 灵珠平台到 OpenClaw 的插件</text>
+  <circle cx="25" cy="161" r="4" fill="#3572A5"/>
+  <text class="title" x="40" y="165">mcodeforlegal</text>
+  <text class="muted" x="40" y="183">Mainland China-first legal workflow plugins for Claude Code: ...</text>
   <text class="label" x="350" y="165">Stars</text>
   <text class="value" x="402" y="165">1</text>
-  <text class="label" x="456" y="165">TypeScript</text>
-  <text class="subtitle" x="350" y="183">Updated 2026-06-08</text>
-  <circle cx="25" cy="192" r="4" fill="#3572A5"/>
-  <text class="title" x="40" y="196">Breteau-Index-Prediction-Model-using-m...</text>
-  <text class="muted" x="40" y="214">supplementary codes for research &quot;A Breteau Index Prediction ...</text>
+  <text class="label" x="456" y="165">Python</text>
+  <text class="subtitle" x="350" y="183">Updated 2026-08-19</text>
+  <circle cx="25" cy="192" r="4" fill="#3178c6"/>
+  <text class="title" x="40" y="196">rokid-lingzhu-openclaw</text>
+  <text class="muted" x="40" y="214">Rokid 灵珠平台到 OpenClaw 的插件</text>
   <text class="label" x="350" y="196">Stars</text>
   <text class="value" x="402" y="196">1</text>
-  <text class="label" x="456" y="196">Python</text>
-  <text class="subtitle" x="350" y="214">Updated 2025-03-23</text>
+  <text class="label" x="456" y="196">TypeScript</text>
+  <text class="subtitle" x="350" y="214">Updated 2026-06-08</text>
 </svg>
