@@ -138,7 +138,7 @@ Available support channels: WeChat Pay, Alipay, Stripe monthly support, Stripe o
 
 - **Dual-model framework for chikungunya transmission modelling: ODE and Petri Net analysis of the 2025 Foshan outbreak.** *BMC Public Health* 26 (2026). DOI [10.1186/s12889-026-28110-9](https://doi.org/10.1186/s12889-026-28110-9).
 - **Spatiotemporal instability of influenza seasonality during viral co-circulation.** *npj Systems Biology and Applications* (2026). DOI [10.1038/s41540-026-00729-9](https://doi.org/10.1038/s41540-026-00729-9).
-- **MAESTRO (Multi-modal Adaptive Estimation for Temporal Respiratory Disease Outbreak).** arXiv preprint [arXiv:2509.08578](https://arxiv.org/abs/2509.08578) (2025); reports R² = 0.956 on a 10-year Hong Kong influenza dataset.
+- **MAESTRO (Multi-modal Adaptive Estimation for Temporal Respiratory Disease Outbreak).** arXiv preprint [arXiv:2509.08578](https://arxiv.org/abs/2509.08578) (2025); reports R² = 0.956 on an 11-year Hong Kong influenza dataset (excluding the COVID-19 period).
 
 ---
 
@@ -154,7 +154,7 @@ What drives me every day is the belief that by deciphering complex health data a
 
 Through my research and GitHub repositories, I work on translating complex epidemiological models, non-stationary time-series analyses, and multimodal forecasting algorithms into open-source, reproducible code.
 
-Whether it's analyzing the co-circulation of influenza or modeling small-sample outbreaks, I strive to share my workflows and tools to help fellow researchers and developers in the community. Active research-engineering work also lives in [epic-intel-harness](https://github.com/Hylouis233/epic-intel-harness) (auditable outbreak-intelligence agent benchmark) and [hanta-scientific-data-resource](https://github.com/Hylouis233/hanta-scientific-data-resource) (DVC + Snakemake ResearchOps for hantavirus / ebola outbreak studies).
+Whether it's analyzing the co-circulation of influenza or modeling small-sample outbreaks, I strive to share my workflows and tools to help fellow researchers and developers in the community. Active research engineering also lives in [epic-intel-harness](https://github.com/Hylouis233/epic-intel-harness) (deterministic-safety outbreak-intelligence agent benchmark), [hanta-scientific-data-resource](https://github.com/Hylouis233/hanta-scientific-data-resource) (DVC + Snakemake ResearchOps for hantavirus / ebola), [openscience](https://github.com/Hylouis233/openscience) (evidence-first research workflow harness with a `science-epi` skill), and [mcodeforlegal](https://github.com/Hylouis233/mcodeforlegal) (Mainland-China-first legal workflow plugins for Claude Code).
 
 🌱 How Your Contributions Make a Difference
 
