@@ -18,33 +18,33 @@
   <text class="label" x="350" y="72">Stars</text>
   <text class="value" x="402" y="72">0</text>
   <text class="label" x="456" y="72">HTML</text>
-  <text class="subtitle" x="350" y="90">Pushed 2026-08-31</text>
+  <text class="subtitle" x="350" y="90">Pushed 2026-09-01</text>
   <circle cx="25" cy="99" r="4" fill="#f1e05a"/>
   <text class="title" x="40" y="103">Hylouis233</text>
   <text class="muted" x="40" y="121">Config files for my GitHub profile.</text>
   <text class="label" x="350" y="103">Stars</text>
   <text class="value" x="402" y="103">0</text>
   <text class="label" x="456" y="103">JavaScript</text>
-  <text class="subtitle" x="350" y="121">Pushed 2026-08-31</text>
+  <text class="subtitle" x="350" y="121">Pushed 2026-09-01</text>
   <circle cx="25" cy="130" r="4" fill="#3572A5"/>
-  <text class="title" x="40" y="134">bibverify</text>
-  <text class="muted" x="40" y="152">Cross-platform BibTeX verification for researchers and AI ass...</text>
+  <text class="title" x="40" y="134">therm-vibe-hud</text>
+  <text class="muted" x="40" y="152">https://github.com/Hylouis233/therm-vibe-hud</text>
   <text class="label" x="350" y="134">Stars</text>
-  <text class="value" x="402" y="134">101</text>
+  <text class="value" x="402" y="134">1</text>
   <text class="label" x="456" y="134">Python</text>
-  <text class="subtitle" x="350" y="152">Pushed 2026-08-30</text>
-  <circle cx="25" cy="161" r="4" fill="#98c379"/>
-  <text class="title" x="40" y="165">Hylouis233.github.io</text>
-  <text class="muted" x="40" y="183">https://github.com/Hylouis233/Hylouis233.github.io</text>
+  <text class="subtitle" x="350" y="152">Pushed 2026-08-31</text>
+  <circle cx="25" cy="161" r="4" fill="#3572A5"/>
+  <text class="title" x="40" y="165">bibverify</text>
+  <text class="muted" x="40" y="183">Cross-platform BibTeX verification for researchers and AI ass...</text>
   <text class="label" x="350" y="165">Stars</text>
-  <text class="value" x="402" y="165">0</text>
-  <text class="label" x="456" y="165">Astro</text>
-  <text class="subtitle" x="350" y="183">Pushed 2026-08-29</text>
-  <circle cx="25" cy="192" r="4" fill="#3572A5"/>
-  <text class="title" x="40" y="196">open-protein-binder-design</text>
-  <text class="muted" x="40" y="214">Model-agnostic protocol, replay, ranking-audit and LLM decisi...</text>
+  <text class="value" x="402" y="165">101</text>
+  <text class="label" x="456" y="165">Python</text>
+  <text class="subtitle" x="350" y="183">Pushed 2026-08-30</text>
+  <circle cx="25" cy="192" r="4" fill="#98c379"/>
+  <text class="title" x="40" y="196">Hylouis233.github.io</text>
+  <text class="muted" x="40" y="214">https://github.com/Hylouis233/Hylouis233.github.io</text>
   <text class="label" x="350" y="196">Stars</text>
   <text class="value" x="402" y="196">0</text>
-  <text class="label" x="456" y="196">Python</text>
-  <text class="subtitle" x="350" y="214">Pushed 2026-08-20</text>
+  <text class="label" x="456" y="196">Astro</text>
+  <text class="subtitle" x="350" y="214">Pushed 2026-08-29</text>
 </svg>
