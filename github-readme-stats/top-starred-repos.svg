@@ -18,7 +18,7 @@
   <text class="label" x="350" y="72">Stars</text>
   <text class="value" x="402" y="72">101</text>
   <text class="label" x="456" y="72">Python</text>
-  <text class="subtitle" x="350" y="90">Updated 2026-08-30</text>
+  <text class="subtitle" x="350" y="90">Updated 2026-09-05</text>
   <circle cx="25" cy="99" r="4" fill="#3572A5"/>
   <text class="title" x="40" y="103">phsciencedata_crawler_region</text>
   <text class="muted" x="40" y="121">公共卫生数据科学中心疾病数据分地区爬虫</text>
@@ -30,9 +30,9 @@
   <text class="title" x="40" y="134">codex-invite-cli</text>
   <text class="muted" x="40" y="152">Query and manage ChatGPT Codex referral invites + rewards via...</text>
   <text class="label" x="350" y="134">Stars</text>
-  <text class="value" x="402" y="134">2</text>
+  <text class="value" x="402" y="134">1</text>
   <text class="label" x="456" y="134">Python</text>
-  <text class="subtitle" x="350" y="152">Updated 2026-08-11</text>
+  <text class="subtitle" x="350" y="152">Updated 2026-09-05</text>
   <circle cx="25" cy="161" r="4" fill="#3572A5"/>
   <text class="title" x="40" y="165">therm-vibe-hud</text>
   <text class="muted" x="40" y="183">https://github.com/Hylouis233/therm-vibe-hud</text>
