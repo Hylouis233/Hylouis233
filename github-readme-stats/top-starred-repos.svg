@@ -32,7 +32,7 @@
   <text class="label" x="350" y="134">Stars</text>
   <text class="value" x="402" y="134">1</text>
   <text class="label" x="456" y="134">Python</text>
-  <text class="subtitle" x="350" y="152">Updated 2026-09-06</text>
+  <text class="subtitle" x="350" y="152">Updated 2026-09-08</text>
   <circle cx="25" cy="161" r="4" fill="#3572A5"/>
   <text class="title" x="40" y="165">codex-invite-cli</text>
   <text class="muted" x="40" y="183">Query and manage ChatGPT Codex referral invites + rewards via...</text>
