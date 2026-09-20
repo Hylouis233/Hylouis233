@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Base metrics
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           filename: github-metrics/base.svg
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -27,7 +27,7 @@ jobs:
           plugin_lines: yes
 
       - name: Language metrics
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           filename: github-metrics/languages.indepth.svg
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -39,7 +39,7 @@ jobs:
           plugin_languages_limit: 8
 
       - name: Pinned repositories metrics
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           filename: github-metrics/repositories.pinned.svg
           token: ${{ secrets.GITHUB_TOKEN }}
