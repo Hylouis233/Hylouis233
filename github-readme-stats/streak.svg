@@ -1,0 +1,23 @@
+<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Hylouis233's Contribution Streak</title>
+  <desc id="desc">Computed from the GitHub contribution calendar</desc>
+  <style>
+    .card { fill: #282c34; stroke: #3a404b; stroke-width: 1; }
+    .title { fill: #61afef; font: 600 17px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .subtitle { fill: #abb2bf; font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .label { fill: #abb2bf; font: 500 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .value { fill: #e5c07b; font: 700 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .muted { fill: #98c379; font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .big { fill: #e5c07b; font: 700 24px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  </style>
+  <rect class="card" x="0.5" y="0.5" width="494" height="194" rx="6" />
+  <text class="title" x="20" y="30">Hylouis233's Contribution Streak</text>
+  <text class="subtitle" x="20" y="51">Computed from the GitHub contribution calendar</text>
+  <text class="label" x="28" y="92">Current Streak</text>
+  <text class="big" x="28" y="124">2 days</text>
+  <text class="label" x="186" y="92">Longest Streak</text>
+  <text class="big" x="186" y="124">55 days</text>
+  <text class="label" x="344" y="92">Contributions</text>
+  <text class="big" x="344" y="124">4,732</text>
+  <text class="muted" x="28" y="158">Window: 2025-09-21 → 2026-09-20 (trailing year)</text>
+</svg>
