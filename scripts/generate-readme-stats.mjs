@@ -178,6 +178,81 @@ function languageColor(name) {
   return colors[name] || '#98c379';
 }
 
+async function getContributionDays() {
+  const query = `query($login: String!) {
+    user(login: $login) {
+      contributionsCollection {
+        contributionCalendar {
+          weeks { contributionDays { date contributionCount } }
+        }
+      }
+    }
+  }`;
+  const response = await fetch('https://api.github.com/graphql', {
+    method: 'POST',
+    headers: { ...headers, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ query, variables: { login: owner } }),
+  });
+  if (!response.ok) {
+    throw new Error(`graphql ${response.status} ${response.statusText}`);
+  }
+  const payload = await response.json();
+  if (payload.errors) {
+    throw new Error(payload.errors.map((error) => error.message).join('; '));
+  }
+  return payload.data.user.contributionsCollection.contributionCalendar.weeks
+    .flatMap((week) => week.contributionDays)
+    .map((day) => ({ date: day.date, count: day.contributionCount }));
+}
+
+function computeStreaks(days) {
+  const dates = days.map((day) => day.date);
+  const active = new Set(days.filter((day) => day.count > 0).map((day) => day.date));
+
+  // Current streak: count back from the newest day; a zero-contribution
+  // today must not break a streak that is alive as of yesterday.
+  let index = dates.length - 1;
+  if (index >= 0 && !active.has(dates[index])) index -= 1;
+  let current = 0;
+  while (index >= 0 && active.has(dates[index])) {
+    current += 1;
+    index -= 1;
+  }
+
+  let longest = 0;
+  let run = 0;
+  for (const date of dates) {
+    if (active.has(date)) {
+      run += 1;
+      longest = Math.max(longest, run);
+    } else {
+      run = 0;
+    }
+  }
+
+  return {
+    current,
+    longest,
+    total: days.reduce((sum, day) => sum + day.count, 0),
+    range: days.length ? `${days[0].date} → ${days[days.length - 1].date}` : 'n/a',
+  };
+}
+
+function streakRows(streaks) {
+  const columns = [
+    { label: 'Current Streak', value: `${formatNumber(streaks.current)} days` },
+    { label: 'Longest Streak', value: `${formatNumber(streaks.longest)} days` },
+    { label: 'Contributions', value: formatNumber(streaks.total) },
+  ];
+  const cells = columns.map((column, index) => {
+    const x = 28 + index * 158;
+    return `<text class="label" x="${x}" y="92">${escapeXml(column.label)}</text>
+  <text class="big" x="${x}" y="124">${escapeXml(column.value)}</text>`;
+  }).join('\n  ');
+  return `${cells}
+  <text class="muted" x="28" y="158">Window: ${escapeXml(streaks.range)} (trailing year)</text>`;
+}
+
 async function generate() {
   await fs.mkdir(outputDir, { recursive: true });
 
@@ -280,6 +355,18 @@ async function generate() {
     body: topRepositoryGridRows(topCombinedRepos),
   });
   await fs.writeFile(path.join(outputDir, 'top-repositories.svg'), topRepositoriesSvg);
+
+  const streaks = computeStreaks(await getContributionDays());
+  const streakSvg = cardSvg({
+    width: 495,
+    height: 195,
+    title: `${owner}'s Contribution Streak`,
+    subtitle: 'Computed from the GitHub contribution calendar',
+    extraStyle: `
+    .big { fill: #e5c07b; font: 700 24px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }`,
+    body: streakRows(streaks),
+  });
+  await fs.writeFile(path.join(outputDir, 'streak.svg'), streakSvg);
 }
 
 generate().catch((error) => {
