@@ -26,7 +26,7 @@
 ### 🔥 GitHub Streak
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hylouis233&theme=onedark&hide_border=true&background=00000000" />
+  <img src="https://streak-stats.demolab.com/?user=Hylouis233&theme=onedark&hide_border=true&background=00000000" />
 </div>
 
 ### 📈 Featured Research Repositories
@@ -49,10 +49,10 @@
 
 ## More Highlights
 
-### Live Activity Graph
+### Recently Active Repositories
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hylouis233&theme=xcode&hide_border=true" />
+  <img src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-readme-stats/recent-repos.svg" />
 </div>
 
 ### Contribution Snake
