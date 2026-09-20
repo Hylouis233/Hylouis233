@@ -26,7 +26,7 @@
 ### 🔥 GitHub Streak
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Hylouis233&theme=onedark&hide_border=true&background=00000000" />
+  <img src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-readme-stats/streak.svg" />
 </div>
 
 ### 📈 Featured Research Repositories
