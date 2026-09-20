@@ -25,10 +25,16 @@
 
 第 2 层  自愈（Profile Health Check，每日 09:00 UTC）
   scripts/health-check.mjs
-    a. 抓取 README.md 全部图片 URL，逐一验证 200 + SVG 内容
-    b. 检查 4 个生成 workflow 最近 48h 内是否有成功运行
-    c. 坏了/过期 → 自动 workflow_dispatch 重跑对应生成器
-    d. 修不了的（外部服务死）→ 开/评论 issue「🚨 Profile README health check failed」
+    a. 抓取 README.md 全部图片 URL（HTML src/srcset + Markdown 图片，6 并发），验证 200 + 图片内容，
+       并做「错误占位卡」内容嗅探——自托管卡片服务出错时返回的是 HTTP 200 + 错误 SVG，
+       只看状态码会漏检（嗅探标记：Something went wrong / not whitelisted / No GitHub API
+       tokens found / Resource not accessible 等）
+    b. 检查 4 个生成 workflow 最近 48h 内是否有成功运行（单文件 404 不炸整体；
+       queued/in_progress 超 6h 视为卡死）
+    c. 坏了/过期 → 自动 workflow_dispatch 重跑对应生成器（同一 workflow 20h 冷却，
+       确定性失败只告警不无限重跑）
+    d. 修不了的（外部服务死）→ 维护唯一 issue「🚨 Profile README health check failed」
+       （更新正文而非追加评论）；有未修复故障时 Actions 退出码为红
 
 第 3 层  告警
   issue 存在 = 有问题；全部恢复后脚本自动关闭该 issue 并评论
@@ -91,8 +97,8 @@
 | **Streak 连击**（漂亮卡） | `streak.hylouis.fyi`（自托管） | 服务器容器（常驻） | **无法自动修**，体检开 issue；回退改 URL 即可 |
 | Featured Repos / Recent Repos（自生成热备 + Stats/Streak/Langs 的回退图） | `github-readme-stats/*.svg` | `readme-stats.yml`（每日 02:27 UTC） | 健康检查重跑 |
 | Metrics 三联图 | `github-metrics/*.svg` | `metrics.yml`（每日 00:00 UTC） | 健康检查重跑 |
-| Contribution Snake | `profile-snake-contrib/*.svg` | `snake.yml`（每日 00:00 UTC） | 健康检查重跑 |
-| 3D Contribution | `profile-3d-contrib/*.svg` | `contrib.yml`（每日 00:00 UTC） | 健康检查重跑 |
+| Contribution Snake | `profile-snake-contrib/*.svg` | `snake.yml`（每日 02:00 UTC） | 健康检查重跑 |
+| 3D Contribution | `profile-3d-contrib/*.svg` | `contrib.yml`（每日 01:00 UTC） | 健康检查重跑 |
 | Trophies | `trophy.ryglcloud.net` | 自建反代 | **无法自动修**，会开 issue 提醒 |
 | 各类徽章 | `img.shields.io` | 无 | 极少坏，会开 issue 提醒 |
 
