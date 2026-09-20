@@ -38,6 +38,49 @@
 仍依赖的外部服务（可接受项）：
 - `img.shields.io` 静态徽章 —— 极稳定，且仅剩文字样式，无个性化数据
 - `trophy.ryglcloud.net` —— 自建反代，自己的基础设施
+- `ghstats.hylouis.fyi` / `streak.hylouis.fyi` —— 自托管卡片服务（见下节）
+
+## 二点五、自托管漂亮卡片层（Colocrossing，已部署待激活）
+
+**架构**：Colocrossing 机器（Ubuntu 24.04，107.172.252.169）上的 `/opt/profile-cards/`，
+三个容器（`docker compose`）：
+
+| 容器 | 内容 | 端口 |
+|---|---|---|
+| `profile-cards-ghstats` | anuraghazra/github-readme-stats（源码构建，含 server.mjs Express 包装） | 仅内网 :9000 |
+| `profile-cards-streak` | DenverCoder1/github-readme-streak-stats（源码构建） | 仅内网 :80 |
+| `profile-cards-tunnel` | cloudflared（tunnel `profile-cards`，ID `fa44736e-732a-494f-b56b-9dc8b68bf775`） | 出站-only |
+
+- 对外通过 Cloudflare Tunnel 暴露：`ghstats.hylouis.fyi`、`streak.hylouis.fyi`（DNS 由
+  本机 `~/.cloudflared/cert.pem` 创建，CNAME 已自动加好）
+- **未开放任何新入站端口**，不占用 payment-caddy；credentials.json 600 root-only
+- 已配 `WHITELIST=Hylouis233`：别人无法通过该端点烧你的 API 配额
+
+**⚠️ 待激活（唯一一步，需要网页操作）**：这两个项目现在**都强制要求 GitHub PAT**
+（无 token 会渲染错误卡）。fine-grained PAT 无法用 API/CLI 创建，只能你手动建：
+
+1. GitHub → Settings → Developer settings → **Fine-grained tokens** → Generate
+   - Resource owner: `Hylouis233`；Repository access: **Public repositories**；权限全不勾（读公开数据无需任何权限）
+2. `ssh root@100.75.132.37`（密钥 `~/.ssh/id_ed25519_tailnet_macmini`，或走 Tailscale 别名）后：
+   ```bash
+   echo 'PAT_1=github_pat_你的token' > /opt/profile-cards/.env && chmod 600 /opt/profile-cards/.env
+   cd /opt/profile-cards && docker compose up -d
+   ```
+3. 验证（应返回真实 SVG 而非错误卡）：
+   ```bash
+   curl -s "https://streak.hylouis.fyi/?user=Hylouis233&theme=onedark&hide_border=true" | head -c 200
+   curl -s "https://ghstats.hylouis.fyi/api?username=Hylouis233&show_icons=true&theme=onedark" | head -c 200
+   ```
+4. 激活成功后把 README 里的图换成（三行，想换哪张换哪张；不换则继续用自生成版）：
+   - Streak → `https://streak.hylouis.fyi/?user=Hylouis233&theme=onedark&hide_border=true&background=00000000`
+   - Stats 卡 → `https://ghstats.hylouis.fyi/api?username=Hylouis233&show_icons=true&theme=onedark&include_all_commits=true`
+   - Top Languages → `https://ghstats.hylouis.fyi/api/top-langs/?username=Hylouis233&layout=compact&theme=onedark&langs_count=8`
+
+**降级/回退**：README 一旦用了自托管 URL，体检会自动监控它们；Colocrossing 挂掉时
+会开 issue 提醒（无法自愈），把对应 URL 改回 `github-readme-stats/*.svg` 自生成版即可
+（生成器每天照常运行，自生成 SVG 永远是热备）。
+
+**主题**：两服务共享主题库（onedark/tokyonight/dracula/…），把 URL 里 `theme=` 换掉即可。
 
 ## 三、各图速查表
 
