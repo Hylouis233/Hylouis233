@@ -30,10 +30,11 @@ async function github(pathname) {
 
 async function getAllRepos() {
   const repos = [];
-  for (let page = 1; page <= 5; page += 1) {
+  for (let page = 1; page <= 10; page += 1) {
     const batch = await github(`/users/${owner}/repos?per_page=100&page=${page}&sort=updated&type=owner`);
     repos.push(...batch);
     if (batch.length < 100) break;
+    if (page === 10) console.warn(`warning: stopped at ${repos.length} repos (page cap); totals may be incomplete`);
   }
   return repos;
 }
@@ -200,8 +201,12 @@ async function getContributionDays() {
   if (payload.errors) {
     throw new Error(payload.errors.map((error) => error.message).join('; '));
   }
+  // The calendar returns whole weeks, so it can include future days that
+  // always show zero contributions -- they would break streak math.
+  const today = new Date().toISOString().slice(0, 10);
   return payload.data.user.contributionsCollection.contributionCalendar.weeks
     .flatMap((week) => week.contributionDays)
+    .filter((day) => day.date <= today)
     .map((day) => ({ date: day.date, count: day.contributionCount }));
 }
 
@@ -240,8 +245,8 @@ function computeStreaks(days) {
 
 function streakRows(streaks) {
   const columns = [
-    { label: 'Current Streak', value: `${formatNumber(streaks.current)} days` },
-    { label: 'Longest Streak', value: `${formatNumber(streaks.longest)} days` },
+    { label: 'Current Streak', value: `${formatNumber(streaks.current)} ${streaks.current === 1 ? 'day' : 'days'}` },
+    { label: 'Longest Streak', value: `${formatNumber(streaks.longest)} ${streaks.longest === 1 ? 'day' : 'days'}` },
     { label: 'Contributions', value: formatNumber(streaks.total) },
   ];
   const cells = columns.map((column, index) => {
