@@ -56,37 +56,40 @@
 - **未开放任何新入站端口**，不占用 payment-caddy；credentials.json 600 root-only
 - 已配 `WHITELIST=Hylouis233`：别人无法通过该端点烧你的 API 配额
 
-**⚠️ 待激活（唯一一步，需要网页操作）**：这两个项目现在**都强制要求 GitHub PAT**
-（无 token 会渲染错误卡）。fine-grained PAT 无法用 API/CLI 创建，只能你手动建：
+**✅ 已激活（2026-09-20）**：PAT 已配置在服务器 `/opt/profile-cards/.env`（600 权限），
+两个服务均验证通过。README 的 Stats/Top-Langs/Streak 三张图已切换到自托管版（onedark 主题）。
 
-1. GitHub → Settings → Developer settings → **Fine-grained tokens** → Generate
-   - Resource owner: `Hylouis233`；Repository access: **Public repositories**；权限全不勾（读公开数据无需任何权限）
-2. `ssh root@100.75.132.37`（密钥 `~/.ssh/id_ed25519_tailnet_macmini`，或走 Tailscale 别名）后：
-   ```bash
-   echo 'PAT_1=github_pat_你的token' > /opt/profile-cards/.env && chmod 600 /opt/profile-cards/.env
-   cd /opt/profile-cards && docker compose up -d
-   ```
-3. 验证（应返回真实 SVG 而非错误卡）：
-   ```bash
-   curl -s "https://streak.hylouis.fyi/?user=Hylouis233&theme=onedark&hide_border=true" | head -c 200
-   curl -s "https://ghstats.hylouis.fyi/api?username=Hylouis233&show_icons=true&theme=onedark" | head -c 200
-   ```
-4. 激活成功后把 README 里的图换成（三行，想换哪张换哪张；不换则继续用自生成版）：
-   - Streak → `https://streak.hylouis.fyi/?user=Hylouis233&theme=onedark&hide_border=true&background=00000000`
-   - Stats 卡 → `https://ghstats.hylouis.fyi/api?username=Hylouis233&show_icons=true&theme=onedark&include_all_commits=true`
-   - Top Languages → `https://ghstats.hylouis.fyi/api/top-langs/?username=Hylouis233&layout=compact&theme=onedark&langs_count=8`
+**⚠️ 重要：本地补丁**。fine-grained PAT 无法访问 GraphQL 的 `stargazers { totalCount }`
+连接字段（GitHub 权限模型限制，报 `Resource not accessible by personal access token`），
+已将 `/opt/profile-cards/src/github-readme-stats/src/fetchers/stats.js` 里的查询改用等价的
+标量字段 `stargazerCount`（共 3 处：查询、`repoNodesWithStars` 过滤、`totalStars` 求和）。
+**升级上游代码（`git pull`）时必须重新应用此补丁**，否则 stats 卡会重新报错。
 
-**降级/回退**：README 一旦用了自托管 URL，体检会自动监控它们；Colocrossing 挂掉时
-会开 issue 提醒（无法自愈），把对应 URL 改回 `github-readme-stats/*.svg` 自生成版即可
-（生成器每天照常运行，自生成 SVG 永远是热备）。
+**日常运维**：
+- 重启：`cd /opt/profile-cards && docker compose up -d`；日志：`docker logs profile-cards-ghstats`
+- 换主题：改 README 里 URL 的 `theme=` 参数（两服务共享主题库：onedark/tokyonight/dracola…）
+- 回退：把 README 里 `ghstats.hylouis.fyi` / `streak.hylouis.fyi` 的 URL 改回
+  `github-readme-stats/*.svg` 自生成版即可（生成器每天照常运行，永远是热备）
+- token 过期（建 token 时选的期限到期）：重新生成 PAT 后更新 `.env` 并 `docker compose up -d`
 
-**主题**：两服务共享主题库（onedark/tokyonight/dracula/…），把 URL 里 `theme=` 换掉即可。
+**历史排障记录**（供未来排查参考）：
+- ghcr.io 在 Colocrossing 拉取被拒 → 全部改源码构建（`src/` 下两个 clone）
+- streak-stats 新版是 Apache/PHP 镜像，容器内端口是 **80**（不是文档的 8080）
+- cloudflared 容器默认非 root 用户读不了 600 的配置 → compose 里 `user: root`
+- 两个卡片项目均**强制要求 PAT**（无 token 渲染错误卡），token 统一从 `.env` 的 `PAT_1` 注入
+- stats 卡曾报 `No GitHub API tokens found` / `Resource not accessible...`：前者是缺 PAT，
+  后者即上述 stargazers 字段补丁问题
+
+**架构**：Colocrossing 机器（Ubuntu 24.04，107.172.252.169）上的 `/opt/profile-cards/`，
+三个容器（`docker compose`）：
 
 ## 三、各图速查表
 
 | README 里的图 | 来源 | 生成 workflow | 死了怎么自动处理 |
 |---|---|---|---|
-| GitHub Stats / Top Languages / Featured Repos / Recent Repos / Streak | `github-readme-stats/*.svg` | `readme-stats.yml`（每日 02:27 UTC） | 健康检查重跑 |
+| **Stats / Top-Langs**（漂亮卡） | `ghstats.hylouis.fyi`（自托管） | 服务器容器（常驻） | **无法自动修**，体检开 issue；回退改 URL 即可 |
+| **Streak 连击**（漂亮卡） | `streak.hylouis.fyi`（自托管） | 服务器容器（常驻） | **无法自动修**，体检开 issue；回退改 URL 即可 |
+| Featured Repos / Recent Repos（自生成热备 + Stats/Streak/Langs 的回退图） | `github-readme-stats/*.svg` | `readme-stats.yml`（每日 02:27 UTC） | 健康检查重跑 |
 | Metrics 三联图 | `github-metrics/*.svg` | `metrics.yml`（每日 00:00 UTC） | 健康检查重跑 |
 | Contribution Snake | `profile-snake-contrib/*.svg` | `snake.yml`（每日 00:00 UTC） | 健康检查重跑 |
 | 3D Contribution | `profile-3d-contrib/*.svg` | `contrib.yml`（每日 00:00 UTC） | 健康检查重跑 |
