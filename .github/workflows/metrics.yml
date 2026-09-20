@@ -46,4 +46,4 @@ jobs:
           user: ${{ github.repository_owner }}
           base: ""
           plugin_repositories: yes
-          plugin_repositories_pinned: 2
+          plugin_repositories_pinned: 3
