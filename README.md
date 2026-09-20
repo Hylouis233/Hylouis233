@@ -13,8 +13,8 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img height="137px" src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-readme-stats/profile-stats.svg" />
-  <img height="137px" src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-readme-stats/top-langs.svg" />
+  <img height="137px" src="https://ghstats.hylouis.fyi/api?username=Hylouis233&show_icons=true&theme=onedark&include_all_commits=true&hide_border=true" />
+  <img height="137px" src="https://ghstats.hylouis.fyi/api/top-langs/?username=Hylouis233&layout=compact&theme=onedark&langs_count=8&hide_border=true" />
 </div>
 
 ### 🏆 GitHub Trophies
@@ -26,7 +26,7 @@
 ### 🔥 GitHub Streak
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-readme-stats/streak.svg" />
+  <img src="https://streak.hylouis.fyi/?user=Hylouis233&theme=onedark&hide_border=true&background=00000000" />
 </div>
 
 ### 📈 Featured Research Repositories
