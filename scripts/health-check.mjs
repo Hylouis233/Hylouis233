@@ -74,7 +74,8 @@ async function api(pathname, options = {}) {
 function extractImageUrls(markdown) {
   const urls = new Set();
   for (const match of markdown.matchAll(/\b(?<!data-)(?:src|srcset)=(["'])([^"']+)\1/g)) {
-    for (const part of match[2].split(/\s+/)) {
+    // srcset candidates may be comma-separated per the HTML spec
+    for (const part of match[2].split(/[\s,]+/)) {
       if (/^https?:\/\//.test(part)) urls.add(part);
     }
   }
@@ -107,12 +108,15 @@ async function checkImage(url) {
     const contentType = response.headers.get('content-type') || '';
     const body = await response.text().catch(() => '');
     const head = body.slice(0, 256).trim().toLowerCase();
+    const scanWindow = body.slice(0, 6000);
     const looksLikeImage = head.startsWith('<?xml') || head.startsWith('<svg') || head.startsWith('<!doctype svg');
-    const imageOk = contentType.startsWith('image/') || looksLikeImage;
+    const hasBody = body.trim().length > 0;
+    const imageOk = hasBody && (contentType.startsWith('image/') || looksLikeImage);
     const placeholder = imageOk && svgLooksLikeError(body);
-    let ok = response.ok && imageOk && !placeholder;
+    const ok = response.ok && imageOk && !placeholder;
     let note = contentType || 'unknown';
-    if (placeholder) note = `error-placeholder SVG (${SVG_ERROR_MARKERS.find((m) => body.includes(m)) || 'unknown'})`;
+    if (!hasBody) note = 'empty body (200 but no content)';
+    else if (placeholder) note = `error-placeholder SVG (${SVG_ERROR_MARKERS.find((m) => scanWindow.includes(m)) || 'unknown'})`;
     return { url, ok, status: response.status, contentType: note };
   } catch (error) {
     return { url, ok: false, status: 0, contentType: `fetch error: ${error.message}` };
@@ -170,7 +174,10 @@ async function checkWorkflowRuns() {
 async function recentlyDispatched(workflowFile) {
   const runs = await api(`/repos/${repository}/actions/workflows/${workflowFile}/runs?event=workflow_dispatch&per_page=10`);
   const cutoff = Date.now() - REDISPATCH_COOLDOWN_MS;
-  return runs.workflow_runs.some((run) => new Date(run.created_at).getTime() > cutoff);
+  // Only bot-initiated dispatches consume the self-heal budget; a manual
+  // re-run by the owner must not suppress the next healing attempt.
+  return runs.workflow_runs.some((run) => run.actor && run.actor.login === 'github-actions[bot]'
+    && new Date(run.created_at).getTime() > cutoff);
 }
 
 async function dispatchWorkflow(workflowFile, reason) {
@@ -178,17 +185,24 @@ async function dispatchWorkflow(workflowFile, reason) {
     console.log(`  [dry-run] would dispatch ${workflowFile} (${reason})`);
     return true;
   }
-  if (await recentlyDispatched(workflowFile)) {
-    console.log(`  ⏸️  skip ${workflowFile}: already self-healed within ${REDISPATCH_COOLDOWN_MS / 3600000}h (${reason})`);
+  try {
+    if (await recentlyDispatched(workflowFile)) {
+      console.log(`  ⏸️  skip ${workflowFile}: already self-healed within ${REDISPATCH_COOLDOWN_MS / 3600000}h (${reason})`);
+      return false;
+    }
+    await api(`/repos/${repository}/actions/workflows/${workflowFile}/dispatches`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ref: 'main' }),
+    });
+    console.log(`  🔁 re-dispatched ${workflowFile} (${reason})`);
+    return true;
+  } catch (error) {
+    // A failed dispatch must not abort the run: the underlying failure is
+    // still reported via the tracking issue.
+    console.warn(`  ⚠️  dispatch ${workflowFile} failed: ${error.message.slice(0, 160)} (will only alert)`);
     return false;
   }
-  await api(`/repos/${repository}/actions/workflows/${workflowFile}/dispatches`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ ref: 'main' }),
-  });
-  console.log(`  🔁 re-dispatched ${workflowFile} (${reason})`);
-  return true;
 }
 
 function renderIssueBody(failures, heals) {
@@ -206,28 +220,48 @@ function renderIssueBody(failures, heals) {
 }
 
 async function findAlertIssue() {
-  const issues = await api(`/repos/${repository}/issues?state=open&per_page=100`);
-  return issues.find((issue) => issue.title === ISSUE_TITLE
-    && !issue.pull_request
-    && issue.user && issue.user.login === 'github-actions[bot]');
+  for (let attempt = 0; attempt < 2; attempt += 1) {
+    try {
+      const issues = await api(`/repos/${repository}/issues?state=open&per_page=100`);
+      return issues.find((issue) => issue.title === ISSUE_TITLE
+        && !issue.pull_request
+        && issue.user && (issue.user.login === 'github-actions[bot]' || issue.user.login === owner)) || null;
+    } catch (error) {
+      if (attempt === 1) {
+        // Unknown state: safer to skip writing this round than to blindly
+        // create a duplicate tracking issue.
+        console.warn(`  ⚠️ cannot list issues (${error.message.slice(0, 140)}); skipping issue sync this run`);
+        return undefined;
+      }
+      await new Promise((resolve) => setTimeout(resolve, 3000));
+    }
+  }
+  return null;
 }
 
 async function manageAlertIssue(failures, heals) {
-  const existing = await findAlertIssue().catch(() => null);
+  const existing = await findAlertIssue();
+  if (existing === undefined) return;
 
   if (failures.length === 0) {
     if (existing && !noWrite) {
-      await api(`/repos/${repository}/issues/${existing.number}`, {
-        method: 'PATCH',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ state: 'closed' }),
-      });
-      await api(`/repos/${repository}/issues/${existing.number}/comments`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ body: '✅ All checks passed — closing this alert.' }),
-      });
-      console.log(`  ✅ closed alert issue #${existing.number}`);
+      // Comment first, then close; tolerate individual failures so a fully
+      // healthy run never ends red over cleanup noise.
+      try {
+        await api(`/repos/${repository}/issues/${existing.number}/comments`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ body: '✅ All checks passed — closing this alert.' }),
+        });
+        await api(`/repos/${repository}/issues/${existing.number}`, {
+          method: 'PATCH',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ state: 'closed' }),
+        });
+        console.log(`  ✅ closed alert issue #${existing.number}`);
+      } catch (error) {
+        console.warn(`  ⚠️ failed to close alert issue #${existing.number}: ${error.message.slice(0, 140)}`);
+      }
     }
     return;
   }
@@ -237,22 +271,26 @@ async function manageAlertIssue(failures, heals) {
     console.log('  [dry-run] would upsert alert issue with:', failures.map((f) => f.detail));
     return;
   }
-  if (existing) {
-    // Update the body in place instead of appending comments, so a
-    // long-running outage does not accumulate near-duplicate comments.
-    await api(`/repos/${repository}/issues/${existing.number}`, {
-      method: 'PATCH',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ body }),
-    });
-    console.log(`  📝 updated alert issue #${existing.number}`);
-  } else {
-    const created = await api(`/repos/${repository}/issues`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ title: ISSUE_TITLE, body }),
-    });
-    console.log(`  🚨 opened alert issue #${created.number}`);
+  try {
+    if (existing) {
+      // Update the body in place instead of appending comments, so a
+      // long-running outage does not accumulate near-duplicate comments.
+      await api(`/repos/${repository}/issues/${existing.number}`, {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ body }),
+      });
+      console.log(`  📝 updated alert issue #${existing.number}`);
+    } else {
+      const created = await api(`/repos/${repository}/issues`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ title: ISSUE_TITLE, body }),
+      });
+      console.log(`  🚨 opened alert issue #${created.number}`);
+    }
+  } catch (error) {
+    console.warn(`  ⚠️ failed to write alert issue: ${error.message.slice(0, 140)}`);
   }
 }
 
