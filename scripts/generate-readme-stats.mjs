@@ -20,7 +20,10 @@ if (token) {
 }
 
 async function github(pathname) {
-  const response = await fetch(`https://api.github.com${pathname}`, { headers });
+  const response = await fetch(`https://api.github.com${pathname}`, {
+    headers,
+    signal: AbortSignal.timeout(25_000),
+  });
   if (!response.ok) {
     const body = await response.text();
     throw new Error(`${response.status} ${response.statusText}: ${body.slice(0, 240)}`);
@@ -193,6 +196,7 @@ async function getContributionDays() {
     method: 'POST',
     headers: { ...headers, 'Content-Type': 'application/json' },
     body: JSON.stringify({ query, variables: { login: owner } }),
+    signal: AbortSignal.timeout(25_000),
   });
   if (!response.ok) {
     throw new Error(`graphql ${response.status} ${response.statusText}`);
@@ -202,8 +206,9 @@ async function getContributionDays() {
     throw new Error(payload.errors.map((error) => error.message).join('; '));
   }
   // The calendar returns whole weeks, so it can include future days that
-  // always show zero contributions -- they would break streak math.
-  const today = new Date().toISOString().slice(0, 10);
+  // always show zero contributions -- they would break streak math. Calendar
+  // days belong to the profile's timezone (Asia/Shanghai, UTC+8).
+  const today = new Date(Date.now() + 8 * 3600_000).toISOString().slice(0, 10);
   return payload.data.user.contributionsCollection.contributionCalendar.weeks
     .flatMap((week) => week.contributionDays)
     .filter((day) => day.date <= today)
