@@ -128,6 +128,10 @@ gh workflow run readme-stats.yml -r main   # 重新生成统计卡
 
 ## 五、已知边界
 
+- **⚠️ 仓库的 Issues 必须保持开启**（Settings → General → Issues）：告警层依赖开 issue。
+  曾发现 Issues 被禁用导致告警从未生效（API 410），已于 2026-09-21 开启。
+  若再次关闭，体检只会打 ⚠️ 日志 + Actions 变红，不再有 issue 通知。
+
 - Streak 卡窗口为**最近一年**（GraphQL contributionCalendar 上限），与原 streak-stats 服务口径一致
 - `repositories.pinned.svg` 显示 pinned 数上限为 3（metrics 的 `plugin_repositories_pinned` 上限）
 - 定时任务靠生成器的每日提交维持仓库活跃度，从而避免 GitHub 的「60 天无活动自动停用定时任务」；若长期停用所有 workflow 后需到 Actions 页面手动 Enable
