@@ -40,28 +40,28 @@
     <text class="repo-meta" x="64" y="235">Python | Stars 1 | Forks 1</text>
     <text class="repo-score" x="287" y="235">Score 2</text>
   </a>
-  <a href="https://github.com/Hylouis233/therm-vibe-hud" target="_blank">
+  <a href="https://github.com/Hylouis233/mdesign-webui" target="_blank">
     <rect x="398" y="43" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />
-    <circle cx="419" cy="65" r="12" fill="#3572A5"/>
+    <circle cx="419" cy="65" r="12" fill="#f1e05a"/>
     <text class="rank" x="413" y="70">4</text>
-    <text class="repo-name" x="440" y="63">therm-vibe-hud</text>
-    <text class="repo-meta" x="440" y="83">Python | Stars 1 | Forks 0</text>
+    <text class="repo-name" x="440" y="63">mdesign-webui</text>
+    <text class="repo-meta" x="440" y="83">JavaScript | Stars 1 | Forks 0</text>
     <text class="repo-score" x="663" y="83">Score 1</text>
   </a>
-  <a href="https://github.com/Hylouis233/mcodeforlegal" target="_blank">
+  <a href="https://github.com/Hylouis233/therm-vibe-hud" target="_blank">
     <rect x="398" y="119" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />
     <circle cx="419" cy="141" r="12" fill="#3572A5"/>
     <text class="rank" x="413" y="146">5</text>
-    <text class="repo-name" x="440" y="139">mcodeforlegal</text>
+    <text class="repo-name" x="440" y="139">therm-vibe-hud</text>
     <text class="repo-meta" x="440" y="159">Python | Stars 1 | Forks 0</text>
     <text class="repo-score" x="663" y="159">Score 1</text>
   </a>
-  <a href="https://github.com/Hylouis233/rokid-lingzhu-openclaw" target="_blank">
+  <a href="https://github.com/Hylouis233/mcodeforlegal" target="_blank">
     <rect x="398" y="195" width="350" height="60" rx="6" fill="#313640" stroke="#3f4652" />
-    <circle cx="419" cy="217" r="12" fill="#3178c6"/>
+    <circle cx="419" cy="217" r="12" fill="#3572A5"/>
     <text class="rank" x="413" y="222">6</text>
-    <text class="repo-name" x="440" y="215">rokid-lingzhu-openclaw</text>
-    <text class="repo-meta" x="440" y="235">TypeScript | Stars 1 | Forks 0</text>
+    <text class="repo-name" x="440" y="215">mcodeforlegal</text>
+    <text class="repo-meta" x="440" y="235">Python | Stars 1 | Forks 0</text>
     <text class="repo-score" x="663" y="235">Score 1</text>
   </a>
 </svg>
