@@ -18,7 +18,7 @@
   <text class="label" x="350" y="72">Stars</text>
   <text class="value" x="402" y="72">0</text>
   <text class="label" x="456" y="72">JavaScript</text>
-  <text class="subtitle" x="350" y="90">Pushed 2026-09-25</text>
+  <text class="subtitle" x="350" y="90">Pushed 2026-09-26</text>
   <circle cx="25" cy="99" r="4" fill="#e34c26"/>
   <text class="title" x="40" y="103">epic-site-pages</text>
   <text class="muted" x="40" y="121">Static EPIC public infectious-disease dashboard</text>

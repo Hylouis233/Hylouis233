@@ -14,10 +14,10 @@
   <text class="title" x="20" y="30">Hylouis233's Contribution Streak</text>
   <text class="subtitle" x="20" y="51">Computed from the GitHub contribution calendar</text>
   <text class="label" x="28" y="92">Current Streak</text>
-  <text class="big" x="28" y="124">13 days</text>
+  <text class="big" x="28" y="124">14 days</text>
   <text class="label" x="186" y="92">Longest Streak</text>
   <text class="big" x="186" y="124">55 days</text>
   <text class="label" x="344" y="92">Contributions</text>
-  <text class="big" x="344" y="124">4,864</text>
-  <text class="muted" x="28" y="158">Window: 2025-09-21 → 2026-09-25 (trailing year)</text>
+  <text class="big" x="344" y="124">4,868</text>
+  <text class="muted" x="28" y="158">Window: 2025-09-21 → 2026-09-26 (trailing year)</text>
 </svg>
