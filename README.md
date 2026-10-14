@@ -137,6 +137,13 @@
 
 Available support channels: WeChat Pay, Alipay, Stripe monthly support, Stripe one-time support, BTCPay USDT/USDC invoices, USDT on TRON/TON/EVM/Solana, USDC on EVM/Solana, BTCPay BTC invoices, and BTC on-chain. BTC on-chain can fail for very small amounts because of dust thresholds, so USDT/USDC is usually easier for small crypto support. All support is voluntary; please confirm the asset and network before sending crypto.
 
+### 🤝 Open-Source Contributions (merged PRs)
+
+- **[MiniMax-AI/MiniMax-Code-Plugins](https://github.com/MiniMax-AI/MiniMax-Code-Plugins/pulls?q=is%3Apr+author%3AHylouis233+is%3Amerged)**: 6 plugins in the official MiniMax Code plugin registry: openscience, mcodeforlegal, open-protein-binder-design, minimax-token-plan, document-skills, cli-agent-bridge (Aug–Sep 2026).
+- **[hetaoBackend/MiniMax-Code-Plugins](https://github.com/hetaoBackend/MiniMax-Code-Plugins/pulls?q=is%3Apr+author%3AHylouis233+is%3Amerged)**: search-first, verification-loop, mcp-server-patterns plugins (Aug 2026).
+- **[lidge-jun/opencodex#6578](https://github.com/lidge-jun/opencodex/pull/6578)**: test isolation for provider-fixture DNS and bounded child-process lifetime (Oct 2026).
+- **[Poiig/sgcc_electricity#1](https://github.com/Poiig/sgcc_electricity/pull/1)**: conditionally skip CDP stealth injection on Docker/Linux (May 2026).
+
 ### 📄 Selected publications (2026)
 
 - **Dual-Model framework for CHIKV transmission modeling: ODE and Petri Net Analysis of the 2025 Foshan outbreak.** *BMC Public Health* 26 (2026). DOI [10.1186/s12889-026-28110-9](https://doi.org/10.1186/s12889-026-28110-9).
