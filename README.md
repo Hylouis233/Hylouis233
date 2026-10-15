@@ -1,5 +1,7 @@
 <div align="center">
-  <a href="https://hylouis233.github.io"><img src="https://img.shields.io/badge/Website-Academic%20Homepage-0f766e?style=flat-square&logo=astro&logoColor=white" /></a>
+  <a href="https://introduction.hylouis.top/"><img src="https://img.shields.io/badge/Website-Academic%20Homepage-0f766e?style=flat-square&logo=astro&logoColor=white" /></a>
+  <a href="https://orcid.org/0009-0008-3411-5304"><img src="https://img.shields.io/badge/ORCID-0009--0008--3411--5304-A6CE39?style=flat-square&logo=orcid&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/hong-liu-9755a52a7/"><img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:liuh200107@gmail.com"><img src="https://img.shields.io/badge/Email-liuh200107%40gmail.com-d14836?style=flat-square&logo=gmail&logoColor=white" /></a>
   <a href="mailto:hylouis@qq.com"><img src="https://img.shields.io/badge/QQ%20Mail-hylouis%40qq.com-12b7f5?style=flat-square&logo=tencentqq&logoColor=white" /></a>
   <a href="https://hylouis233.github.io/support/"><img src="https://img.shields.io/badge/Support-Research%20and%20Open%20Source-0f766e?style=flat-square&logo=githubsponsors&logoColor=white" /></a>
@@ -101,11 +103,12 @@
 ### Academic Profiles
 
 <div align="center">
-  <a href="https://hylouis233.github.io"><img src="https://img.shields.io/badge/Website-Academic%20Homepage-0f766e?style=flat-square&logo=astro&logoColor=white" /></a>
+  <a href="https://introduction.hylouis.top/"><img src="https://img.shields.io/badge/Website-Academic%20Homepage-0f766e?style=flat-square&logo=astro&logoColor=white" /></a>
   <a href="https://orcid.org/0009-0008-3411-5304"><img src="https://img.shields.io/badge/ORCID-0009--0008--3411--5304-A6CE39?style=flat-square&logo=orcid&logoColor=white" /></a>
-  <a href="https://scholar.google.com/citations?user=XktvX-gAAAAJ&hl=en&authuser=1"><img src="https://img.shields.io/badge/Google%20Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white" /></a>
-  <a href="https://www.researchgate.net/profile/Hong-Liu-79/publications?sorting=recentlyAdded&editMode=1"><img src="https://img.shields.io/badge/ResearchGate-Publications-00CCBB?style=flat-square&logo=researchgate&logoColor=white" /></a>
-  <a href="https://hylouis233.github.io/files/cv.pdf"><img src="https://img.shields.io/badge/CV-Download-B31B1B?style=flat-square&logo=adobeacrobatreader&logoColor=white" /></a>
+  <a href="https://scholar.google.com/citations?user=XktvX-gAAAAJ"><img src="https://img.shields.io/badge/Google%20Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white" /></a>
+  <a href="https://www.researchgate.net/profile/Hong-Liu-79"><img src="https://img.shields.io/badge/ResearchGate-Publications-00CCBB?style=flat-square&logo=researchgate&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/hong-liu-9755a52a7/"><img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="https://introduction.hylouis.top/files/cv.pdf"><img src="https://img.shields.io/badge/CV-Download-B31B1B?style=flat-square&logo=adobeacrobatreader&logoColor=white" /></a>
 </div>
 
 ## Support My Work
@@ -134,10 +137,17 @@
 
 Available support channels: WeChat Pay, Alipay, Stripe monthly support, Stripe one-time support, BTCPay USDT/USDC invoices, USDT on TRON/TON/EVM/Solana, USDC on EVM/Solana, BTCPay BTC invoices, and BTC on-chain. BTC on-chain can fail for very small amounts because of dust thresholds, so USDT/USDC is usually easier for small crypto support. All support is voluntary; please confirm the asset and network before sending crypto.
 
+### 🤝 Open-Source Contributions (personal GitHub work, not employment)
+
+- **[MiniMax-AI/MiniMax-Code-Plugins](https://github.com/MiniMax-AI/MiniMax-Code-Plugins/pulls?q=is%3Apr+author%3AHylouis233+is%3Amerged)**: 6 plugins in the official MiniMax Code plugin registry: openscience, mcodeforlegal, open-protein-binder-design, minimax-token-plan, document-skills, cli-agent-bridge (Aug–Sep 2026).
+- **[hetaoBackend/MiniMax-Code-Plugins](https://github.com/hetaoBackend/MiniMax-Code-Plugins/pulls?q=is%3Apr+author%3AHylouis233+is%3Amerged)**: search-first, verification-loop, mcp-server-patterns plugins (Aug 2026).
+- **[lidge-jun/opencodex#6578](https://github.com/lidge-jun/opencodex/pull/6578)**: fixed tests that interfered with each other and hung when child processes did not exit (Oct 2026).
+- **[CTModelling-LLMdev](https://github.com/CTModelling-LLMdev)**: several merged contributions across a public-health AI platform's repositories (Sept–Oct 2026).
+
 ### 📄 Selected publications (2026)
 
-- **Dual-model framework for chikungunya transmission modelling: ODE and Petri Net analysis of the 2025 Foshan outbreak.** *BMC Public Health* 26 (2026). DOI [10.1186/s12889-026-28110-9](https://doi.org/10.1186/s12889-026-28110-9).
-- **Spatiotemporal instability of influenza seasonality during viral co-circulation.** *npj Systems Biology and Applications* (2026). DOI [10.1038/s41540-026-00729-9](https://doi.org/10.1038/s41540-026-00729-9).
+- **Dual-Model framework for CHIKV transmission modeling: ODE and Petri Net Analysis of the 2025 Foshan outbreak.** Co-first author (listed first). *BMC Public Health* 26 (2026). DOI [10.1186/s12889-026-28110-9](https://doi.org/10.1186/s12889-026-28110-9).
+- **Spatiotemporal instability of influenza seasonality during viral co-circulation.** Co-first author (listed first). *npj Systems Biology and Applications* 12 (2026). DOI [10.1038/s41540-026-00729-9](https://doi.org/10.1038/s41540-026-00729-9).
 - **MAESTRO (Multi-modal Adaptive Estimation for Temporal Respiratory Disease Outbreak).** arXiv preprint [arXiv:2509.08578](https://arxiv.org/abs/2509.08578) (2025); reports R² = 0.956 on an 11-year Hong Kong influenza dataset (excluding the COVID-19 period).
 
 ---
@@ -146,7 +156,7 @@ Available support channels: WeChat Pay, Alipay, Stripe monthly support, Stripe o
 
 💡 My Passion & What Drives Me
 
-I am currently an M.Sc. student specializing in infectious disease forecasting, spatiotemporal dynamics, and viral evolution, with an interdisciplinary background in public health and preventive medicine. I am deeply passionate about bridging the gap between data science, machine learning, and epidemiology.
+I am a Ph.D. student at the School of Public Health, Xiamen University (since Sept 2026), specializing in infectious disease forecasting, spatiotemporal dynamics, and viral evolution, with an M.Sc. in Computer Science and Technology (MUST, Faculty of Innovation Engineering), a B.Med. in Preventive Medicine and a second-degree B.Sc. in Mathematical Statistics (WISE) from Xiamen University. I am deeply passionate about bridging the gap between data science, machine learning, and epidemiology.
 
 What drives me every day is the belief that by deciphering complex health data and building robust prediction models, we can provide earlier warnings for public health challenges. I am a strong advocate for Open Science and making research accessible to everyone.
 
