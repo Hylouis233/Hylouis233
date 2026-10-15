@@ -1,17 +1,40 @@
 <div align="center">
   <a href="https://introduction.hylouis.top/"><img src="https://img.shields.io/badge/Website-Academic%20Homepage-0f766e?style=flat-square&logo=astro&logoColor=white" /></a>
   <a href="https://orcid.org/0009-0008-3411-5304"><img src="https://img.shields.io/badge/ORCID-0009--0008--3411--5304-A6CE39?style=flat-square&logo=orcid&logoColor=white" /></a>
+  <a href="https://scholar.google.com/citations?user=XktvX-gAAAAJ"><img src="https://img.shields.io/badge/Google%20Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/hong-liu-9755a52a7/"><img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:liuh200107@gmail.com"><img src="https://img.shields.io/badge/Email-liuh200107%40gmail.com-d14836?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <a href="mailto:hylouis@qq.com"><img src="https://img.shields.io/badge/QQ%20Mail-hylouis%40qq.com-12b7f5?style=flat-square&logo=tencentqq&logoColor=white" /></a>
-  <a href="https://hylouis233.github.io/support/"><img src="https://img.shields.io/badge/Support-Research%20and%20Open%20Source-0f766e?style=flat-square&logo=githubsponsors&logoColor=white" /></a>
-  <a href="https://buy.stripe.com/9B66oIaXE8Trfa73tIasg03"><img src="https://img.shields.io/badge/Stripe-Monthly%20Support-635bff?style=flat-square&logo=stripe&logoColor=white" /></a>
-  <a href="https://buy.stripe.com/8x228sd5M7PnbXVd4iasg04"><img src="https://img.shields.io/badge/Stripe-One--time%20Support-635bff?style=flat-square&logo=stripe&logoColor=white" /></a>
-  <a href="https://223.109.141.77:23443/apps/PersonalSiteStablecoinPOS/pos"><img src="https://img.shields.io/badge/USDT-Pay-26A17B?style=flat-square&logo=tether&logoColor=white" /></a>
-  <a href="https://223.109.141.77:23443/apps/PersonalSiteStablecoinPOS/pos"><img src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/assets/badges/usdc-pay.svg" /></a>
-  <a href="https://223.109.141.77:23443/apps/PersonalSiteSupportPOS/pos"><img src="https://img.shields.io/badge/BTC-BTCPay%20Invoice-f7931a?style=flat-square&logo=bitcoin&logoColor=white" /></a>
 </div>
 
+### Hi there! I'm Hong Liu.
+
+💡 My Passion & What Drives Me
+
+I am a Ph.D. student at the School of Public Health, Xiamen University (since Sept 2026), specializing in infectious disease forecasting, spatiotemporal dynamics, and viral evolution, with an M.Sc. in Computer Science and Technology (MUST, Faculty of Innovation Engineering), a B.Med. in Preventive Medicine and a second-degree B.Sc. in Mathematical Statistics (WISE) from Xiamen University. I am deeply passionate about bridging the gap between data science, machine learning, and epidemiology.
+
+What drives me every day is the belief that by deciphering complex health data and building robust prediction models, we can provide earlier warnings for public health challenges. I am a strong advocate for Open Science and making research accessible to everyone.
+
+🛠️ What I Do
+
+Through my research and GitHub repositories, I work on translating complex epidemiological models, non-stationary time-series analyses, and multimodal forecasting algorithms into open-source, reproducible code.
+
+Whether it's analyzing the co-circulation of influenza or modeling small-sample outbreaks, I strive to share my workflows and tools to help fellow researchers and developers in the community. Active research engineering also lives in [epic-intel-harness](https://github.com/Hylouis233/epic-intel-harness) (deterministic-safety outbreak-intelligence agent benchmark), [hanta-scientific-data-resource](https://github.com/Hylouis233/hanta-scientific-data-resource) (DVC + Snakemake ResearchOps for hantavirus / ebola), [openscience](https://github.com/Hylouis233/openscience) (evidence-first research workflow harness with a `science-epi` skill), and [mcodeforlegal](https://github.com/Hylouis233/mcodeforlegal) (Mainland-China-first legal workflow plugins for Claude Code).
+
+🌱 How Your Contributions Make a Difference
+
+Balancing academic research and open-source development comes with its own set of challenges and costs. Your generous sponsorship will directly help with:
+
+- Computing Resources: Covering server and GPU costs needed to train machine learning models and process large-scale epidemiological datasets.
+- Research & Maintenance: Supporting data acquisition, publication costs, and the time required to continuously maintain and update my open-source repositories.
+- Fueling the Late Nights: Buying me a cup of coffee during those long nights of debugging code and writing manuscripts.
+
+🤝 Let's Connect
+
+Science and open-source thrive on collaboration. Whether you've cited my papers, used my code, or simply share an interest in infectious disease modeling, I deeply appreciate your presence here.
+
+Every contribution, no matter the size, reminds me that I am not working in isolation. Thank you for supporting my journey in advancing public health research through data and code.
+
+---
 ### 📊 GitHub Stats
 
 <div align="center">
@@ -19,32 +42,10 @@
   <img height="137px" src="https://ghstats.hylouis.fyi/api/top-langs/?username=Hylouis233&layout=compact&theme=onedark&langs_count=8&hide_border=true" />
 </div>
 
-### 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://trophy.ryglcloud.net/?username=Hylouis233&no-frame=true&no-bg=true&theme=onedark&margin-w=10&margin-h=10" />
-</div>
-
-### 🔥 GitHub Streak
-
-<div align="center">
-  <img src="https://streak.hylouis.fyi/?user=Hylouis233&theme=onedark&hide_border=true&background=00000000" />
-</div>
-
 ### 📈 Featured Research Repositories
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/github-readme-stats/top-repositories.svg" />
-</div>
-
-### 🛠️ Tech Stack
-
-<div align="center">
-  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3" />
-  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000" />
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
 </div>
 
 ---
@@ -114,8 +115,8 @@
 ## Support My Work
 
 <div align="center">
-  <a href="https://hylouis233.github.io/support/" target="_blank">
-    <img src="https://img.shields.io/badge/Support%20Hub-WeChat%20%7C%20Alipay%20%7C%20Stripe%20%7C%20BTCPay-0f766e?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Support Hub" />
+  <a href="https://introduction.hylouis.top/" target="_blank">
+    <img src="https://img.shields.io/badge/Support-WeChat%20%7C%20Alipay%20%7C%20Stripe-0f766e?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Support Hub" />
   </a>
   <br />
   <a href="https://buy.stripe.com/9B66oIaXE8Trfa73tIasg03" target="_blank">
@@ -124,18 +125,9 @@
   <a href="https://buy.stripe.com/8x228sd5M7PnbXVd4iasg04" target="_blank">
     <img src="https://img.shields.io/badge/Stripe-One--time%20Support-635bff?style=flat-square&logo=stripe&logoColor=white" alt="Stripe one-time support" />
   </a>
-  <a href="https://223.109.141.77:23443/apps/PersonalSiteStablecoinPOS/pos" target="_blank">
-    <img src="https://img.shields.io/badge/USDT-Pay-26A17B?style=flat-square&logo=tether&logoColor=white" alt="USDT pay" />
-  </a>
-  <a href="https://223.109.141.77:23443/apps/PersonalSiteStablecoinPOS/pos" target="_blank">
-    <img src="https://raw.githubusercontent.com/Hylouis233/Hylouis233/main/assets/badges/usdc-pay.svg" alt="USDC pay" />
-  </a>
-  <a href="https://223.109.141.77:23443/apps/PersonalSiteSupportPOS/pos" target="_blank">
-    <img src="https://img.shields.io/badge/BTC-BTCPay%20Invoice-f7931a?style=flat-square&logo=bitcoin&logoColor=white" alt="BTC BTCPay invoice" />
-  </a>
 </div>
 
-Available support channels: WeChat Pay, Alipay, Stripe monthly support, Stripe one-time support, BTCPay USDT/USDC invoices, USDT on TRON/TON/EVM/Solana, USDC on EVM/Solana, BTCPay BTC invoices, and BTC on-chain. BTC on-chain can fail for very small amounts because of dust thresholds, so USDT/USDC is usually easier for small crypto support. All support is voluntary; please confirm the asset and network before sending crypto.
+Available support channels: WeChat Pay, Alipay, Stripe monthly support, and Stripe one-time support.
 
 ### 🤝 Open-Source Contributions (personal GitHub work, not employment)
 
@@ -146,36 +138,6 @@ Available support channels: WeChat Pay, Alipay, Stripe monthly support, Stripe o
 
 ### 📄 Selected publications (2026)
 
-- **Dual-Model framework for CHIKV transmission modeling: ODE and Petri Net Analysis of the 2025 Foshan outbreak.** Co-first author (listed first). *BMC Public Health* 26 (2026). DOI [10.1186/s12889-026-28110-9](https://doi.org/10.1186/s12889-026-28110-9).
+- **Dual-model framework for CHIKV transmission modeling: ODE and Petri Net Analysis of the 2025 Foshan outbreak.** Co-first author (listed first). *BMC Public Health* 26 (2026). DOI [10.1186/s12889-026-28110-9](https://doi.org/10.1186/s12889-026-28110-9).
 - **Spatiotemporal instability of influenza seasonality during viral co-circulation.** Co-first author (listed first). *npj Systems Biology and Applications* 12 (2026). DOI [10.1038/s41540-026-00729-9](https://doi.org/10.1038/s41540-026-00729-9).
 - **MAESTRO (Multi-modal Adaptive Estimation for Temporal Respiratory Disease Outbreak).** arXiv preprint [arXiv:2509.08578](https://arxiv.org/abs/2509.08578) (2025); reports R² = 0.956 on an 11-year Hong Kong influenza dataset (excluding the COVID-19 period).
-
----
-
-### Hi there! I'm Hong Liu.
-
-💡 My Passion & What Drives Me
-
-I am a Ph.D. student at the School of Public Health, Xiamen University (since Sept 2026), specializing in infectious disease forecasting, spatiotemporal dynamics, and viral evolution, with an M.Sc. in Computer Science and Technology (MUST, Faculty of Innovation Engineering), a B.Med. in Preventive Medicine and a second-degree B.Sc. in Mathematical Statistics (WISE) from Xiamen University. I am deeply passionate about bridging the gap between data science, machine learning, and epidemiology.
-
-What drives me every day is the belief that by deciphering complex health data and building robust prediction models, we can provide earlier warnings for public health challenges. I am a strong advocate for Open Science and making research accessible to everyone.
-
-🛠️ What I Do
-
-Through my research and GitHub repositories, I work on translating complex epidemiological models, non-stationary time-series analyses, and multimodal forecasting algorithms into open-source, reproducible code.
-
-Whether it's analyzing the co-circulation of influenza or modeling small-sample outbreaks, I strive to share my workflows and tools to help fellow researchers and developers in the community. Active research engineering also lives in [epic-intel-harness](https://github.com/Hylouis233/epic-intel-harness) (deterministic-safety outbreak-intelligence agent benchmark), [hanta-scientific-data-resource](https://github.com/Hylouis233/hanta-scientific-data-resource) (DVC + Snakemake ResearchOps for hantavirus / ebola), [openscience](https://github.com/Hylouis233/openscience) (evidence-first research workflow harness with a `science-epi` skill), and [mcodeforlegal](https://github.com/Hylouis233/mcodeforlegal) (Mainland-China-first legal workflow plugins for Claude Code).
-
-🌱 How Your Contributions Make a Difference
-
-Balancing academic research and open-source development comes with its own set of challenges and costs. Your generous sponsorship will directly help with:
-
-- Computing Resources: Covering server and GPU costs needed to train machine learning models and process large-scale epidemiological datasets.
-- Research & Maintenance: Supporting data acquisition, publication costs, and the time required to continuously maintain and update my open-source repositories.
-- Fueling the Late Nights: Buying me a cup of coffee during those long nights of debugging code and writing manuscripts.
-
-🤝 Let's Connect
-
-Science and open-source thrive on collaboration. Whether you've cited my papers, used my code, or simply share an interest in infectious disease modeling, I deeply appreciate your presence here.
-
-Every contribution, no matter the size, reminds me that I am not working in isolation. Thank you for supporting my journey in advancing public health research through data and code.
