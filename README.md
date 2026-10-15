@@ -10,7 +10,7 @@
 
 💡 My Passion & What Drives Me
 
-I am a Ph.D. student at the School of Public Health, Xiamen University (since Sept 2026), specializing in infectious disease forecasting, spatiotemporal dynamics, and viral evolution, with an M.Sc. in Computer Science and Technology (MUST, Faculty of Innovation Engineering), a B.Med. in Preventive Medicine and a second-degree B.Sc. in Mathematical Statistics (WISE) from Xiamen University. I am deeply passionate about bridging the gap between data science, machine learning, and epidemiology.
+I am a Ph.D. student at the School of Public Health, Xiamen University (since Sept 2026), specializing in infectious disease forecasting, spatiotemporal dynamics, and viral evolution, with an M.Sc. in Computer Science and Technology from the joint training programme of Macau University of Science and Technology (Faculty of Innovation Engineering) and Xiamen University (Supervisor Prof. Chitin Hon; Lab director Academician Nanshan Zhong; Xiamen University supervisor Prof. Tianmu Chen), and a B.Med. in Preventive Medicine and a second-degree B.Sc. in Mathematical Statistics (WISE) from Xiamen University. I am deeply passionate about bridging the gap between data science, machine learning, and epidemiology.
 
 What drives me every day is the belief that by deciphering complex health data and building robust prediction models, we can provide earlier warnings for public health challenges. I am a strong advocate for Open Science and making research accessible to everyone.
 
@@ -134,7 +134,6 @@ Available support channels: WeChat Pay, Alipay, Stripe monthly support, and Stri
 - **[MiniMax-AI/MiniMax-Code-Plugins](https://github.com/MiniMax-AI/MiniMax-Code-Plugins/pulls?q=is%3Apr+author%3AHylouis233+is%3Amerged)**: 6 plugins in the official MiniMax Code plugin registry: openscience, mcodeforlegal, open-protein-binder-design, minimax-token-plan, document-skills, cli-agent-bridge (Aug–Sep 2026).
 - **[hetaoBackend/MiniMax-Code-Plugins](https://github.com/hetaoBackend/MiniMax-Code-Plugins/pulls?q=is%3Apr+author%3AHylouis233+is%3Amerged)**: search-first, verification-loop, mcp-server-patterns plugins (Aug 2026).
 - **[lidge-jun/opencodex#6578](https://github.com/lidge-jun/opencodex/pull/6578)**: fixed tests that interfered with each other and hung when child processes did not exit (Oct 2026).
-- **[CTModelling-LLMdev](https://github.com/CTModelling-LLMdev)**: several merged contributions across a public-health AI platform's repositories (Sept–Oct 2026).
 
 ### 📄 Selected publications (2026)
 
