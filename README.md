@@ -139,4 +139,5 @@ Available support channels: WeChat Pay, Alipay, Stripe monthly support, and Stri
 
 - **Dual-model framework for CHIKV transmission modeling: ODE and Petri Net Analysis of the 2025 Foshan outbreak.** Co-first author (listed first). *BMC Public Health* 26 (2026). DOI [10.1186/s12889-026-28110-9](https://doi.org/10.1186/s12889-026-28110-9).
 - **Spatiotemporal instability of influenza seasonality during viral co-circulation.** Co-first author (listed first). *npj Systems Biology and Applications* 12 (2026). DOI [10.1038/s41540-026-00729-9](https://doi.org/10.1038/s41540-026-00729-9).
+- **Dengue transmission dynamics in China’s border regions adjacent to Myanmar.** Co-author (7/11). *Infectious Diseases of Poverty* (2026). DOI [10.1186/s40249-026-01440-x](https://doi.org/10.1186/s40249-026-01440-x).
 - **MAESTRO (Multi-modal Adaptive Estimation for Temporal Respiratory Disease Outbreak).** arXiv preprint [arXiv:2509.08578](https://arxiv.org/abs/2509.08578) (2025); reports R² = 0.956 on an 11-year Hong Kong influenza dataset (excluding the COVID-19 period).
