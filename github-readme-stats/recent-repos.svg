@@ -18,20 +18,20 @@
   <text class="label" x="350" y="72">Stars</text>
   <text class="value" x="402" y="72">0</text>
   <text class="label" x="456" y="72">JavaScript</text>
-  <text class="subtitle" x="350" y="90">Pushed 2026-10-28</text>
-  <circle cx="25" cy="99" r="4" fill="#98c379"/>
-  <text class="title" x="40" y="103">Hylouis233.github.io</text>
-  <text class="muted" x="40" y="121">Personal academic homepage of Hong Liu</text>
+  <text class="subtitle" x="350" y="90">Pushed 2026-10-29</text>
+  <circle cx="25" cy="99" r="4" fill="#3572A5"/>
+  <text class="title" x="40" y="103">bibverify</text>
+  <text class="muted" x="40" y="121">Cross-platform BibTeX verification for researchers and AI ass...</text>
   <text class="label" x="350" y="103">Stars</text>
-  <text class="value" x="402" y="103">0</text>
-  <text class="label" x="456" y="103">Astro</text>
-  <text class="subtitle" x="350" y="121">Pushed 2026-10-25</text>
-  <circle cx="25" cy="130" r="4" fill="#3572A5"/>
-  <text class="title" x="40" y="134">bibverify</text>
-  <text class="muted" x="40" y="152">Cross-platform BibTeX verification for researchers and AI ass...</text>
+  <text class="value" x="402" y="103">98</text>
+  <text class="label" x="456" y="103">Python</text>
+  <text class="subtitle" x="350" y="121">Pushed 2026-10-29</text>
+  <circle cx="25" cy="130" r="4" fill="#98c379"/>
+  <text class="title" x="40" y="134">Hylouis233.github.io</text>
+  <text class="muted" x="40" y="152">Personal academic homepage of Hong Liu</text>
   <text class="label" x="350" y="134">Stars</text>
-  <text class="value" x="402" y="134">98</text>
-  <text class="label" x="456" y="134">Python</text>
+  <text class="value" x="402" y="134">0</text>
+  <text class="label" x="456" y="134">Astro</text>
   <text class="subtitle" x="350" y="152">Pushed 2026-10-25</text>
   <circle cx="25" cy="161" r="4" fill="#3572A5"/>
   <text class="title" x="40" y="165">workbuddy-skills</text>
