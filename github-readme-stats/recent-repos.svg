@@ -18,7 +18,7 @@
   <text class="label" x="350" y="72">Stars</text>
   <text class="value" x="402" y="72">0</text>
   <text class="label" x="456" y="72">JavaScript</text>
-  <text class="subtitle" x="350" y="90">Pushed 2026-10-30</text>
+  <text class="subtitle" x="350" y="90">Pushed 2026-10-31</text>
   <circle cx="25" cy="99" r="4" fill="#3572A5"/>
   <text class="title" x="40" y="103">bibverify</text>
   <text class="muted" x="40" y="121">Cross-platform BibTeX verification for researchers and AI ass...</text>
