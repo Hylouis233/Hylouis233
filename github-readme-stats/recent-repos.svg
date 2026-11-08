@@ -12,19 +12,19 @@
   <rect class="card" x="0.5" y="0.5" width="559" height="239" rx="6" />
   <text class="title" x="20" y="30">Recently Developed Repositories</text>
   <text class="subtitle" x="20" y="51">Sorted by latest pushed commit from owned public repositories</text>
-  <circle cx="25" cy="68" r="4" fill="#98c379"/>
-  <text class="title" x="40" y="72">sayall-g9n9n</text>
-  <text class="muted" x="40" y="90">Public G9N9N support and local recovery for SayAll on macOS, ...</text>
+  <circle cx="25" cy="68" r="4" fill="#f1e05a"/>
+  <text class="title" x="40" y="72">Hylouis233</text>
+  <text class="muted" x="40" y="90">Config files for my GitHub profile.</text>
   <text class="label" x="350" y="72">Stars</text>
   <text class="value" x="402" y="72">0</text>
-  <text class="label" x="456" y="72">Swift</text>
-  <text class="subtitle" x="350" y="90">Pushed 2026-11-07</text>
-  <circle cx="25" cy="99" r="4" fill="#f1e05a"/>
-  <text class="title" x="40" y="103">Hylouis233</text>
-  <text class="muted" x="40" y="121">Config files for my GitHub profile.</text>
+  <text class="label" x="456" y="72">JavaScript</text>
+  <text class="subtitle" x="350" y="90">Pushed 2026-11-08</text>
+  <circle cx="25" cy="99" r="4" fill="#98c379"/>
+  <text class="title" x="40" y="103">sayall-g9n9n</text>
+  <text class="muted" x="40" y="121">Public G9N9N support and local recovery for SayAll on macOS, ...</text>
   <text class="label" x="350" y="103">Stars</text>
   <text class="value" x="402" y="103">0</text>
-  <text class="label" x="456" y="103">JavaScript</text>
+  <text class="label" x="456" y="103">Swift</text>
   <text class="subtitle" x="350" y="121">Pushed 2026-11-07</text>
   <circle cx="25" cy="130" r="4" fill="#3572A5"/>
   <text class="title" x="40" y="134">therm-vibe-hud</text>
